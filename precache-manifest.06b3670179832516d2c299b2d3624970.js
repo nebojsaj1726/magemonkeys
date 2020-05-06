@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c3923c0d69f7e53f931acaac71cce7ba",
+    "revision": "8bb8de000a9bd2510752318fd269c013",
     "url": "/magemonkeys/index.html"
   },
   {
-    "revision": "77851065bf2ae052d3f9",
+    "revision": "536c18336a8d15d3d09f",
     "url": "/magemonkeys/static/css/main.61a829af.chunk.css"
   },
   {
-    "revision": "95625492b46435783900",
-    "url": "/magemonkeys/static/js/2.3a603aaf.chunk.js"
+    "revision": "3e6526a1cdd8f7b23c88",
+    "url": "/magemonkeys/static/js/2.53de43ad.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/magemonkeys/static/js/2.3a603aaf.chunk.js.LICENSE.txt"
+    "url": "/magemonkeys/static/js/2.53de43ad.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "77851065bf2ae052d3f9",
-    "url": "/magemonkeys/static/js/main.1c5f50c2.chunk.js"
+    "revision": "536c18336a8d15d3d09f",
+    "url": "/magemonkeys/static/js/main.cd378d3e.chunk.js"
   },
   {
     "revision": "106768b314f1560607ce",
