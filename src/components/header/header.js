@@ -61,11 +61,7 @@ class Header extends Component {
                 <span>Menu</span>
               </a>
               <div className="sidenav" id="sidenav">
-                <a
-                  href="magemonkeys/#"
-                  className="closebtn"
-                  onClick={this.closeNav}
-                >
+                <a href="/#" className="closebtn" onClick={this.closeNav}>
                   &times;
                 </a>
                 <div id="sideMenu" className="menu deskmob">
