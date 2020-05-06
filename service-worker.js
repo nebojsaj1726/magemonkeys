@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/magemonkeys/precache-manifest.8572191d252ac4eaf8b7f32cee9c205a.js"
+  "/magemonkeys/precache-manifest.7cebc11df988aae9b4ebcb1f661a3294.js"
 );
 
 self.addEventListener('message', (event) => {
