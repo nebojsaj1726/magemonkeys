@@ -1,0 +1,49 @@
+.blog_cell {
+  width: 100%;
+  float: left;
+  margin: 20px 0 0;
+}
+.testimonial-main {
+  position: relative;
+  padding: 150px 0;
+}
+.blog_cell {
+  text-align: center;
+}
+
+.blog_cell h5 {
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.blog_cell h5 img {
+  margin-top: -6px;
+  margin-right: 5px;
+}
+
+.r-player {
+  width: auto !important;
+  margin-bottom: 20px;
+}
+
+video:focus {
+  outline: none;
+}
+
+@media (max-width: 1400px) {
+  .testimonial-main {
+    padding: 80px 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .testimonial-main {
+    padding: 50px 0 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .testimonial-main {
+    padding: 30px 0 20px;
+  }
+}

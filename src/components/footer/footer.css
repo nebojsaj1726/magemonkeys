@@ -1,0 +1,153 @@
+.footer {
+  background: #2c2c2c;
+  padding: 60px 0;
+  color: #fff;
+}
+.footer h6 {
+  font-size: 16px;
+  line-height: 35px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.footer ul li a,
+.footer p {
+  color: #fff;
+  font-size: 13px;
+  line-height: 30px;
+}
+.footer ul li a {
+  opacity: 0.7;
+}
+.footer .get-quote {
+  margin-left: -20px;
+  margin-top: 20px;
+}
+.footer .get-quote a {
+  color: #fff;
+  font-size: 13px;
+  line-height: 29px;
+  background: #f26322;
+  padding: 2px 15px !important;
+  float: none;
+  margin: auto;
+  width: auto;
+  opacity: 1;
+  background: #f26322;
+  border-radius: 50px;
+}
+.f-first {
+  width: 100%;
+}
+.f-second {
+  text-align: center;
+  padding: 50px 0 0;
+}
+.f-social {
+  display: inline-flex;
+  width: auto;
+  margin: auto;
+  text-align: center;
+}
+.social {
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin-bottom: 30px;
+}
+.f-second p {
+  margin: 0 !important;
+}
+.footer .f-social li {
+  margin: 0 8px;
+  width: 20px;
+  height: 20px;
+}
+.footer .f-social a {
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 0;
+  padding: 4px;
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  opacity: 1;
+}
+.logo-ftr {
+  text-align: center;
+}
+.footer .f-menu {
+  padding-right: 10%;
+}
+.footer .f-social a:hover i {
+  color: #f26322;
+}
+
+@media (max-width: 1199px) {
+  .footer .f-menu .col-md-3 {
+    padding: 0 5px;
+  }
+  .footer ul li a,
+  .footer p {
+    font-size: 12px;
+    line-height: 27px;
+  }
+  .footer h6 {
+    font-size: 16px;
+    line-height: 21px;
+    min-height: 46px;
+  }
+  .f-second {
+    padding: 30px 0 0;
+  }
+  .social {
+    margin-bottom: 20px;
+  }
+  .footer {
+    padding: 40px 0 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .footer .f-menu .col-md-3 {
+    padding: 0 15px;
+    width: 50% !important;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 30px;
+  }
+  .footer .get-quote {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer .f-menu {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .footer .f-menu .col-md-3 {
+    padding: 20px 15px;
+    width: 100% !important;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 1000%;
+    max-width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .footer h6 {
+    min-height: inherit;
+  }
+  .footer .f-menu .col-md-3 ul li {
+    width: 100%;
+    float: left;
+    text-align: center;
+  }
+  .footer .get-quote a {
+    float: none;
+    margin: auto;
+    width: 140px;
+  }
+}

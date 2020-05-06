@@ -1,0 +1,219 @@
+.test-logos ul {
+  float: none;
+  margin: auto;
+  display: inline-flex;
+  margin: 0 -20px;
+}
+.test-logos ul li {
+  margin: 0 10px;
+}
+.test-logos {
+  margin-top: 80px;
+}
+.has-error.form-control {
+  color: #9f005b;
+  border-color: #9f005b;
+  box-shadow: inset 0 0 0 1px #9f005b;
+}
+.has-error.form-control:focus {
+  box-shadow: none;
+}
+#phone-number-country {
+  color: #000;
+}
+.form-control:not(textarea) {
+  height: 43px;
+  min-height: 43px;
+}
+.form-control {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  color: #000;
+  display: block;
+  border-bottom: 1px solid #cbcbcb;
+  font-size: 16px;
+  width: 100%;
+  transition: box-shadow 0.3s ease-in-out ease-out;
+}
+form label {
+  color: #000;
+  display: block;
+  font-size: 16px;
+  font-family: "Conv_avenirltstd-light";
+}
+form {
+  width: 100%;
+  float: left;
+}
+.phone-number .form-control.phone-number-prefix {
+  width: 90px;
+  float: left;
+  font-size: 30px;
+  color: #000000;
+  line-height: 30px;
+  font-family: "Conv_AvenirLTStd-Black";
+  margin-right: 30px;
+  padding: 6px 0;
+}
+.phone-number .form-control {
+  width: calc(100% - 120px);
+}
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  color: #000;
+  display: block;
+  border-bottom: 1px solid #cbcbcb;
+  font-size: 16px;
+  width: 100%;
+  transition: box-shadow 0.3s ease-in-out ease-out;
+  resize: none;
+  height: 110px;
+}
+
+.lets-start-main {
+  background: #f2f2f2;
+  padding: 80px 0;
+  position: relative;
+}
+.test-cont p {
+  font-family: "Conv_PlayfairDisplay-Regular";
+  font-size: 45px;
+  line-height: 60px;
+  color: #000000;
+  letter-spacing: 1px;
+}
+.test-cont {
+  padding-right: 200px;
+  padding-left: 110px;
+  background: url(../../images/t-icn.png);
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding: 50px 0px 0 110px;
+}
+.test-form {
+  padding: 50px 0 0;
+  float: left;
+  width: 100%;
+}
+
+@media (max-width: 1400px) {
+  .lets-start-main {
+    padding: 50px 0;
+  }
+  .form-control:not(textarea) {
+    height: 40px;
+    min-height: 40px;
+  }
+  .phone-number .form-control.phone-number-prefix {
+    width: 80px;
+    font-size: 22px;
+    line-height: 20px;
+  }
+  .phone-number .form-control {
+    width: calc(100% - 110px);
+  }
+  .test-logos ul {
+    float: left;
+    width: 100%;
+  }
+  .test-logos {
+    margin-top: 50px;
+    float: left;
+    width: 100%;
+  }
+  textarea {
+    height: 80px;
+  }
+  .test-cont {
+    background-size: 60px;
+    padding: 30px 0px 0 90px;
+  }
+  .test-cont p {
+    font-size: 33px;
+    line-height: 45px;
+    padding-right: 29%;
+  }
+  .test-form {
+    padding: 30px 0 0;
+  }
+  form label {
+    margin: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .lets-start-main {
+    padding: 40px 0;
+  }
+  .test-cont p {
+    font-size: 25px;
+    line-height: 31px;
+    padding-right: 0;
+  }
+  .test-cont {
+    background-size: 50px;
+    padding: 20px 0px 0 70px;
+  }
+  .test-logos {
+    margin-top: 30px;
+  }
+  .test-form {
+    padding: 60px 0 0;
+  }
+  .test-form h2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .test-cont {
+    background-size: 35px;
+    padding: 10px 0px 0 50px;
+  }
+  .test-cont p {
+    font-size: 20px;
+    line-height: 26px;
+    padding-right: 0;
+  }
+  .test-logos {
+    margin-top: 20px;
+  }
+  .test-logos ul {
+    float: left;
+    width: calc(100% + 20%);
+    margin: 0 -10%;
+    flex-wrap: wrap;
+  }
+  .test-form {
+    padding: 30px 0 0;
+  }
+  .lets-start-main h2 {
+    font-size: 26px;
+    line-height: 26px;
+    margin-bottom: 30px;
+  }
+  .phone-number .form-control.phone-number-prefix {
+    width: 70px;
+    font-size: 17px;
+    line-height: 15px;
+  }
+  .phone-number .form-control {
+    width: calc(100% - 100px);
+  }
+}

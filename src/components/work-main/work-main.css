@@ -1,0 +1,198 @@
+.work-main {
+  padding: 156px 15px 100px;
+  position: relative;
+}
+.semi-head {
+  font-size: 25px;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+.worl-calc-main {
+  background: #ff7232;
+  display: flex;
+  width: 100%;
+  padding: 50px;
+  border-radius: 40px;
+  color: #fff;
+  text-align: center;
+}
+.worl-calc-main li {
+  width: 25%;
+  float: left;
+  position: relative;
+}
+.worl-calc-main li:last-child::after {
+  display: none;
+}
+.worl-calc-main li::after {
+  position: absolute;
+  content: "";
+  right: 0;
+  left: auto;
+  height: 80%;
+  width: 1px;
+  color: #ffffff;
+  background: #ffffff;
+  top: 10%;
+  opacity: 0.2;
+}
+.worl-calc-main img {
+  margin-bottom: 20px;
+}
+.work-inr {
+  width: 100%;
+  background: #e5e5e5;
+  text-align: center;
+  border-radius: 40px;
+}
+.mage-icons {
+  width: 100%;
+  padding: 40px 0 50px;
+}
+.worl-calc-main h4 {
+  margin: 0;
+  color: #ffffff;
+}
+.numbers {
+  font-size: 80px;
+}
+.mage-icons ul {
+  margin: auto;
+  float: none;
+  margin: auto;
+  display: inline-flex;
+}
+.mage-icons ul li {
+  margin: 0 10px;
+}
+.mage-icons ul li {
+  margin: 0 10px;
+  box-shadow: 2px 61px 49px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 2px 61px 49px rgba(0, 0, 0, 0.2); /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 2px 61px 49px rgba(0, 0, 0, 0.2); /* Firefox 3.5 - 3.6 */
+}
+
+@media (max-width: 1400px) {
+  .work-main {
+    padding: 100px 0 50px;
+  }
+  h2 {
+    font-size: 45px;
+    line-height: 45px;
+  }
+  .semi-head {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  .worl-calc-main img {
+    width: auto;
+    height: 65px;
+  }
+  h4 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .numbers {
+    font-size: 60px;
+  }
+  .worl-calc-main {
+    padding: 30px;
+  }
+  .mage-icons ul {
+    width: 53%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .work-main {
+    padding: 70px 0 40px;
+  }
+  h2 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .semi-head {
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 27px;
+  }
+  .worl-calc-main img {
+    width: auto;
+    height: 55px;
+  }
+  h4 {
+    font-size: 13px;
+    line-height: 17px;
+  }
+  .numbers {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 33px;
+    line-height: 33px;
+  }
+}
+
+@media (max-width: 991px) {
+  .work-main {
+    padding: 40px 0;
+  }
+  .semi-head {
+    font-size: 15px;
+    line-height: 21px;
+    margin-bottom: 27px;
+  }
+  .worl-calc-main h4 {
+    min-height: 40px;
+  }
+  .numbers {
+    font-size: 40px;
+  }
+  .worl-calc-main img {
+    height: 45px;
+  }
+  .mage-icons ul {
+    width: 63%;
+  }
+}
+
+@media (max-width: 767px) {
+  .worl-calc-main h4 {
+    min-height: inherit;
+  }
+  .work-main {
+    padding: 30px 0;
+  }
+  .semi-head {
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 17px;
+  }
+  .worl-calc-main {
+    flex-wrap: wrap;
+  }
+  .worl-calc-main li {
+    width: 100%;
+    padding: 20px 0;
+    float: left;
+  }
+  .worl-calc-main li::after {
+    right: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+  }
+  .mage-icons ul {
+    width: 93%;
+  }
+  .mage-icons ul li {
+    margin: 0 4px;
+  }
+  .mage-icons {
+    width: 100%;
+    padding: 20px 0 50px;
+  }
+}

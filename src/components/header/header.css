@@ -1,0 +1,309 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 30px 0;
+  z-index: 999;
+}
+.header .container {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+.navigation {
+  float: right;
+  margin-top: 43px;
+  margin: auto 0 auto auto;
+}
+.get-quote a {
+  background: #6a2607;
+  padding: 3px 22px !important;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+  font-family: "Conv_Avenir Heavy";
+}
+.lines-button.x2 {
+  margin: 15px 0;
+  float: right;
+}
+
+/*menu css*/
+.navright {
+  margin-right: 72px;
+  margin-left: auto;
+  margin-top: 37px;
+}
+.navright {
+  margin-left: auto;
+  margin-top: 32px;
+}
+.navright ul li {
+  float: left;
+  margin-left: 0;
+  padding-bottom: 0px;
+  position: relative;
+}
+
+.navright div.menu > ul > li:hover {
+  font-weight: bold;
+}
+
+.navright ul li a {
+  font-size: 18px;
+  color: #ffffff;
+  padding-bottom: 12px;
+}
+.navright div.menu > ul > li ul {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  top: 41px;
+  width: 230px;
+  padding: 13px 0;
+  background: #62a731;
+  transition: all 0.5s ease 0s;
+}
+.navright div.menu > ul > li ul {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+}
+.navright * {
+  float: left;
+}
+.contactlink a {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  display: block;
+  padding: 14px 28px;
+  margin-right: 40px;
+  font-weight: normal;
+  transition: all 0.2s ease 0s;
+  background: #09707d;
+  border-radius: 40px;
+  letter-spacing: 0.02em;
+  border: 1px solid #09707d;
+}
+.contactlink a:hover {
+  color: #09707d;
+  background: #fff;
+}
+
+.navright .menuicon {
+  position: relative;
+  width: 21px;
+}
+.navright .menuicon img {
+  width: 39px;
+}
+.navright .menuicon span {
+  position: relative;
+  text-transform: uppercase;
+  color: rgba(60, 56, 54, 0.7);
+  font-size: 12px;
+  letter-spacing: 0.09em;
+  margin-top: 11px;
+  line-height: normal;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 40px;
+  width: 360px;
+  right: -360px;
+  box-shadow: 0px 10px 10px #717171;
+  z-index: 99999;
+}
+.sidenav.expandmenu {
+  right: 0;
+}
+.sidenav .closebtn {
+  z-index: 9999;
+  top: 20px;
+  right: 20px;
+  color: #000;
+  position: absolute;
+  font-size: 36px;
+}
+.sidenav .callwrp p {
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+  letter-spacing: -0.01em;
+  color: rgba(52, 26, 10, 0.8);
+  background: #fde3d3;
+  padding: 16px 45px 19px 45px;
+  margin-top: -40px;
+}
+.sidenav .callwrp p a {
+  color: #000;
+  font-weight: 700;
+}
+.sidenav ul.deskmenu > li > a {
+  padding: 14px 54px 14px 31px;
+  text-decoration: none;
+  line-height: normal;
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  color: #1e2d4c;
+  display: block;
+  transition: 0.3s;
+  width: 100%;
+  position: relative;
+}
+.sidenav ul.deskmenu > li > a:after {
+  height: 2px;
+  background: #fff;
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 0;
+  transition: 0.5s;
+}
+.sidenav ul.deskmenu > li:hover > a::after {
+  width: 100%;
+}
+.sidenav ul.deskmenu > li {
+  border-bottom: 1px solid #e6e6e6;
+  margin-left: 0;
+  width: 100%;
+  padding-bottom: 0;
+}
+.navright div.menu > ul > li ul {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  top: 41px;
+  width: 230px;
+  padding: 13px 0;
+  background: #09707d;
+  transition: all 0.5s ease 0s;
+}
+.navright div.menu > ul > li ul li {
+  margin: 0;
+  width: 100%;
+  padding-bottom: 10px;
+}
+.navright div.menu > ul > li ul li:last-child {
+  padding-bottom: 0;
+}
+.navright div.menu > ul > li ul li a {
+  width: 100%;
+  padding: 4px 20px;
+}
+.navright div.menu > ul.firstul > li ul li a {
+  padding: 5px 16px;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  font-size: 15px;
+}
+.navright div.menu > ul.firstul > li ul {
+  padding: 0;
+}
+.navright div.menu > ul.firstul > li ul li {
+  padding: 0;
+}
+.navright div.menu > ul.firstul > li ul li a:hover {
+  background: #3c3836;
+}
+.header {
+  display: flex;
+}
+.navright {
+  margin: 0 0 0 auto;
+}
+.navright {
+  margin: 0 0 0 auto;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+.main_menu {
+  float: left;
+}
+.get-quote {
+  float: left;
+}
+.menuicon {
+  float: left;
+}
+.menuicon span {
+  display: none;
+}
+.menuicon {
+  float: left;
+  margin: 0 20px;
+}
+#sideMenu .mobile {
+  display: none;
+}
+.service-main .hideme {
+  padding: 0 10px;
+}
+
+@media (max-width: 1400px) {
+  .main_menu > ul > li > a {
+    font-size: 15px;
+    line-height: 30px;
+    padding: 3px 15px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .main_menu > ul > li > a {
+    font-size: 12px;
+    line-height: 25px;
+    padding: 3px 12px;
+  }
+  .get-quote a {
+    padding: 3px 12px !important;
+    font-size: 13px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .main_menu {
+    display: none;
+  }
+  .header {
+    padding: 20px 0;
+  }
+  #sideMenu .mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .logowrap {
+    width: 70px;
+  }
+  .logowrap img {
+    width: 100%;
+  }
+  .get-quote a {
+    padding: 0px 12px !important;
+    font-size: 11px;
+    line-height: 27px;
+  }
+  .menuicon {
+    margin: 0 -10px 0 10px;
+  }
+}
