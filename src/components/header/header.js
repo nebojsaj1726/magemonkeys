@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 import "./header.css";
 import logo from "../../images/logo.png";
@@ -61,9 +62,9 @@ class Header extends Component {
                 <span>Menu</span>
               </a>
               <div className="sidenav" id="sidenav">
-                <a href="/#" className="closebtn" onClick={this.closeNav}>
+                <Link to="#" className="closebtn" onClick={this.closeNav}>
                   &times;
-                </a>
+                </Link>
                 <div id="sideMenu" className="menu deskmob">
                   <ul className="deskmenu">
                     <li id="menu-item-26" className="menu-item ">
