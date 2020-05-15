@@ -35,6 +35,10 @@
   background: #f26322;
   border-radius: 50px;
 }
+.footer .get-quote a:hover {
+  background: #000;
+  color: #fff;
+}
 .f-first {
   width: 100%;
 }

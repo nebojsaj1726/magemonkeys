@@ -30,7 +30,10 @@ export class TestimonialMain extends Component {
   render() {
     const { videoUrl1, videoUrl2, videoUrl3 } = this.state;
     return (
-      <div className="testimonial-main">
+      <div
+        className="testimonial-main  hideme wow animated  fadeIn"
+        data-wow-duration="2s"
+      >
         <div className="container">
           <div className="row">
             <h2
@@ -41,11 +44,7 @@ export class TestimonialMain extends Component {
             </h2>
           </div>
           <div className="row">
-            <div
-              className="col-md-4 hideme wow animated  fadeInLeftBig"
-              data-wow-duration="2s"
-              data-wow-delay="1s"
-            >
+            <div className="col-md-4">
               <div className="blog_cell">
                 <ReactPlayer url={videoUrl3} className="r-player" controls />
                 <h5>
@@ -53,11 +52,7 @@ export class TestimonialMain extends Component {
                 </h5>
               </div>
             </div>
-            <div
-              className="col-md-4 hideme wow animated  fadeIn"
-              data-wow-duration="2s"
-              data-wow-delay="1s"
-            >
+            <div className="col-md-4">
               <div className="blog_cell">
                 <ReactPlayer url={videoUrl2} className="r-player" controls />
 
@@ -66,11 +61,7 @@ export class TestimonialMain extends Component {
                 </h5>
               </div>
             </div>
-            <div
-              className="col-md-4 hideme wow animated  fadeInRightBig"
-              data-wow-duration="2s"
-              data-wow-delay="1s"
-            >
+            <div className="col-md-4">
               <div className="blog_cell">
                 <ReactPlayer url={videoUrl1} className="r-player" controls />
 

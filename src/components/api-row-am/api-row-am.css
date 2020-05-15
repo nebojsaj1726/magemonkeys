@@ -1,0 +1,31 @@
+.api-single {
+  padding: 40px 40px 20px 0;
+}
+.api-single img {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1499px) {
+  .api-single img {
+    margin-bottom: 20px;
+    max-height: 50px;
+    min-height: 50px;
+    width: auto !important;
+  }
+}
+
+@media (max-width: 1199px) {
+  .api-single img {
+    margin-bottom: 20px;
+    max-height: 50px;
+    min-height: 50px;
+    width: auto !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .api-single {
+    padding: 20px 0px;
+    text-align: center;
+  }
+}

@@ -61,7 +61,7 @@ const WorkMain = () => (
           <div className="mage-icons">
             <ul>
               <li
-                className="hideme wow animated  fadeInLeftBig"
+                className="hideme wow animated  fadeIn"
                 data-wow-duration="3s"
                 data-wow-delay="1s"
               >
@@ -70,7 +70,7 @@ const WorkMain = () => (
                 </a>
               </li>
               <li
-                className="hideme wow animated  fadeInLeftBig"
+                className="hideme wow animated  fadeIn"
                 data-wow-duration="3s"
                 data-wow-delay="0.2s"
               >
@@ -88,7 +88,7 @@ const WorkMain = () => (
                 </a>
               </li>
               <li
-                className="hideme wow animated  fadeInRightBig"
+                className="hideme wow animated  fadeIn"
                 data-wow-duration="3s"
                 data-wow-delay="0.2s"
               >
@@ -97,7 +97,7 @@ const WorkMain = () => (
                 </a>
               </li>
               <li
-                className="hideme wow animated  fadeInRightBig"
+                className="hideme wow animated  fadeIn"
                 data-wow-duration="3s"
                 data-wow-delay="1s"
               >

@@ -9,7 +9,7 @@ const Footer = () => (
       <div className="f-first">
         <div className="row">
           <div className="col-md-3">
-            <div className="logo-ftr hideme wow animated  fadeInLeftBig">
+            <div className="logo-ftr hideme wow animated  fadeIn">
               <img src={logo} alt="" />
             </div>
           </div>

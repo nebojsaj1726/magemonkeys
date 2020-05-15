@@ -274,6 +274,24 @@ h6 {
   font-weight: normal;
   width: 100%;
 }
+.orange-title {
+  color: #f26322 !important;
+}
+.orange-title {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.orange-title-small {
+  color: #f26322;
+}
+
+.orange-title-small,
+.black-title-small {
+  font-size: 30px;
+  line-height: 31px;
+}
+
 /*.black-title{ font-size: 60px; color: #000; line-height: 60px;font-family: 'Conv_AvenirLTStd-Black';  margin-bottom: 20px; position: relative; width: 100%}*/
 
 .c-center {
@@ -370,17 +388,39 @@ p {
   height: 100%;
 }
 
-@media (max-width: 1400px) {
+@media (min-width: 1500px) and (max-width: 1599px) {
+  .black-back-img.row-am {
+    padding: 70px 0 50px;
+  }
+}
+
+@media (max-width: 1499px) {
   .container {
     max-width: 1130px;
+  }
+  h2 {
+    font-size: 45px;
+    line-height: 45px;
+  }
+  h4 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  h3 {
+    font-size: 28px;
+    line-height: 31px;
+    margin-bottom: 10px;
+  }
+  .row-am {
+    padding: 70px 0;
   }
   p {
     font-size: 15px;
     line-height: 22px;
   }
   h1 {
-    font-size: 90px;
-    line-height: 100px;
+    font-size: 85px;
+    line-height: 90px;
   }
   h1::after {
     width: 120px;
@@ -390,6 +430,17 @@ p {
     font-size: 30px;
     line-height: 30px;
     max-width: 390px;
+  }
+  .orange-title-small,
+  .black-title-small {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  .black-title {
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 10px;
   }
 }
 
@@ -401,9 +452,32 @@ p {
     font-size: 13px;
     line-height: 20px;
   }
+  h1 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  h1::after {
+    width: 80px;
+    height: 80px;
+    right: -69px;
+    top: -10px;
+  }
+  .black-title {
+    font-size: 26px;
+    line-height: 29px;
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 991px) {
+  h1 {
+    font-size: 41px;
+    line-height: 41px;
+  }
+  h2 {
+    font-size: 29px;
+    line-height: 19px;
+  }
   .orange-btn {
     float: none;
     margin: 40px auto 0;
@@ -415,6 +489,26 @@ p {
     font-size: 13px;
     line-height: 20px;
     margin-bottom: 10px;
+  }
+  h1 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  h1::after {
+    width: 36px;
+    height: 36px;
+    right: -30px;
+    top: -7px;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+  .black-title {
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
   }
 }
 

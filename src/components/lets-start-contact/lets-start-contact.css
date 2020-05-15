@@ -1,0 +1,32 @@
+.contact-page {
+  background: #fff;
+}
+.contact-page .left {
+  padding-top: 50px;
+  float: left;
+}
+.contact-page .left p {
+  float: left;
+  opacity: 0.6;
+  letter-spacing: 1px;
+}
+.map {
+  float: left;
+  padding: 50px 70px 0 0;
+}
+
+@media (max-width: 1499px) {
+  .contact-page .left {
+    padding-top: 37px;
+  }
+}
+@media (max-width: 1199px) {
+  .contact-page .left {
+    padding-top: 33px;
+  }
+}
+@media (max-width: 991px) {
+  .contact-page .left {
+    padding-top: 0;
+  }
+}

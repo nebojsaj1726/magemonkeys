@@ -1,0 +1,72 @@
+.cwu.row-am {
+  background: #f2f2f2;
+}
+.cwu .all-col {
+  padding: 60px 0;
+}
+.mailto a,
+.cwu .cwu-inr a {
+  font-family: "Conv_FuturaStd-Heavy";
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+.cwu .cwu-inr p {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.cwu .cwu-inr img {
+  margin-bottom: 30px;
+  border-radius: 24px;
+}
+.mailto p {
+  margin-bottom: 0px;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+.row-am {
+  position: relative;
+  padding: 120px 0;
+}
+
+@media (max-width: 1499px) {
+  .cwu .cwu-inr a {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .cwu .all-col {
+    padding: 40px 0;
+  }
+  .row-am {
+    padding: 70px 0;
+  }
+}
+
+@media (max-width: 1199px) {
+  .cwu .cwu-inr img {
+    margin-bottom: 20px;
+  }
+  .row-am {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .row-am {
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .cwu .cwu-inr a {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .cwu .all-col {
+    padding: 20px 0;
+  }
+  .row-am {
+    padding: 30px 0;
+  }
+}

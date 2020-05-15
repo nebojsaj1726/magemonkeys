@@ -47,9 +47,7 @@ class Header extends Component {
                   </a>
                 </li>
                 <li id="menu-item-25" className="menu-item ">
-                  <a className="" target="_self" href="/#">
-                    Contact
-                  </a>
+                  <Link to="/contact">Contact</Link>
                 </li>
               </ul>
             </div>
@@ -57,10 +55,10 @@ class Header extends Component {
               <a href="/#">Get a Quote</a>
             </div>
             <div className="menuicon">
-              <a id="mySidenav" href="/magemonkeys/#" onClick={this.openNav}>
+              <Link to="#" id="mySidenav" onClick={this.openNav}>
                 <img src={menu} alt="" />
                 <span>Menu</span>
-              </a>
+              </Link>
               <div className="sidenav" id="sidenav">
                 <Link to="#" className="closebtn" onClick={this.closeNav}>
                   &times;
@@ -78,9 +76,7 @@ class Header extends Component {
                       </a>
                     </li>
                     <li id="menu-item-28" className="menu-item ">
-                      <a className="" target="_self" href="/#">
-                        Contact
-                      </a>
+                      <Link to="/contact">Contact</Link>
                     </li>
 
                     <li id="menu-item-20" className="menu-item mobile">
@@ -104,9 +100,7 @@ class Header extends Component {
                       </a>
                     </li>
                     <li id="menu-item-25" className="menu-item mobile">
-                      <a className="" target="_self" href="/#">
-                        Contact
-                      </a>
+                      <Link to="/contact">Contact</Link>
                     </li>
                   </ul>
                 </div>

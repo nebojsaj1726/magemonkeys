@@ -1,0 +1,79 @@
+.way-main.row-am {
+  padding: 120px 0 210px;
+  overflow-y: hidden;
+}
+.way-main .right {
+  right: 0 !important;
+  position: absolute;
+  left: auto;
+  width: 50vw !important;
+  height: 100%;
+  top: 80px;
+  padding-right: 0;
+  padding-left: 0;
+}
+.way-main h3 {
+  line-height: 50px;
+  margin-bottom: 50px;
+}
+.way-main .way {
+  margin-top: 80px;
+}
+.way-main .way h3 {
+  margin-bottom: 30px;
+}
+.way-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 1499px) {
+  .way-main h3 {
+    line-height: 34px;
+    margin-bottom: 30px;
+  }
+  .way-main .way {
+    margin-top: 50px;
+  }
+  .way-main .way h3 {
+    margin-bottom: 20px;
+  }
+  .way-main.row-am {
+    padding: 120px 0 160px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .way-main.row-am {
+    padding: 90px 0 110px;
+  }
+}
+
+@media (max-width: 991px) {
+  .way-main .right {
+    right: -4% !important;
+    position: relative;
+    left: auto;
+    width: 100% !important;
+    height: auto;
+    top: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .way-main.row-am {
+    padding: 40px 0 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .way-main h3 {
+    line-height: 23px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .way-main .way {
+    margin-top: 30px;
+  }
+}

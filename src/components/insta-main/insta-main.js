@@ -44,22 +44,22 @@ export class InstaMain extends Component {
     return (
       <div className="insta-main ">
         <div className="row p-0">
-          <div className="ins-1 col-md-6 p-0 hideme wow animated  fadeInLeftBig">
+          <div className="ins-1 col-md-6 p-0 hideme wow animated  fadeIn">
             <a href="/#">
               <img src={img1Url} alt="" className="w100" />
             </a>
           </div>
-          <div className="ins-1 col-md-6 p-0 hideme wow animated  fadeInRightBig">
+          <div className="ins-1 col-md-6 p-0 hideme wow animated  fadeIn">
             <a href="/#">
               <img src={img2Url} alt="" className="w100" />
             </a>
           </div>
-          <div className="ins-1 col-md-6 p-0 hideme wow animated  fadeInLeftBig">
+          <div className="ins-1 col-md-6 p-0 hideme wow animated  fadeIn">
             <a href="/#">
               <img src={img3Url} alt="" className="w100" />
             </a>
           </div>
-          <div className="ins-1 col-md-6 p-0 hideme wow animated  fadeInRightBig">
+          <div className="ins-1 col-md-6 p-0 hideme wow animated  fadeIn">
             <a href="/#">
               <img src={img4Url} alt="" className="w100" />
             </a>

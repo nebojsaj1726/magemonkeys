@@ -12,7 +12,7 @@ const LetsStartMain = () => (
       <div className="row">
         <div className="col-md-12 col-lg-7 col-sm-12">
           <div
-            className="test-cont hideme wow animated  fadeInLeftBig"
+            className="test-cont hideme wow animated  fadeIn"
             data-wow-duration="2s"
           >
             <p>
@@ -22,21 +22,21 @@ const LetsStartMain = () => (
             <div className="test-logos">
               <ul>
                 <li
-                  className="hideme wow animated  fadeInLeftBig"
+                  className="hideme wow animated  fadeIn"
                   data-wow-duration="2s"
                   data-wow-delay="0.2s"
                 >
                   <img src={tlogo1} alt="" />
                 </li>
                 <li
-                  className="hideme wow animated  fadeInLeftBig"
+                  className="hideme wow animated  fadeIn"
                   data-wow-duration="2s"
                   data-wow-delay="0.3s"
                 >
                   <img src={tlogo2} alt="" />
                 </li>
                 <li
-                  className="hideme wow animated  fadeInLeftBig"
+                  className="hideme wow animated  fadeIn"
                   data-wow-duration="2s"
                   data-wow-delay="0.4s"
                 >
@@ -49,12 +49,12 @@ const LetsStartMain = () => (
 
         <div className="col-md-12 col-lg-5 col-sm-12">
           <div className="test-form">
-            <h2 className="black-title c-left hideme wow animated  fadeInRightBig">
+            <h2 className="black-title c-left hideme wow animated  fadeIn">
               Let’s get started
             </h2>
             <form
               action="/action_page.php"
-              className="hideme wow animated  fadeInRightBig"
+              className="hideme wow animated  fadeIn"
               data-wow-duration="2s"
             >
               <div className="form-group">
