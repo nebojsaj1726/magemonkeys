@@ -1,28 +1,32 @@
 {
   "files": {
-    "main.css": "/magemonkeys/static/css/main.61a829af.chunk.css",
-    "main.js": "/magemonkeys/static/js/main.cd378d3e.chunk.js",
-    "main.js.map": "/magemonkeys/static/js/main.cd378d3e.chunk.js.map",
+    "main.css": "/magemonkeys/static/css/main.eba9704a.chunk.css",
+    "main.js": "/magemonkeys/static/js/main.e59f24a7.chunk.js",
+    "main.js.map": "/magemonkeys/static/js/main.e59f24a7.chunk.js.map",
     "runtime-main.js": "/magemonkeys/static/js/runtime-main.53aa2f02.js",
     "runtime-main.js.map": "/magemonkeys/static/js/runtime-main.53aa2f02.js.map",
-    "static/js/2.53de43ad.chunk.js": "/magemonkeys/static/js/2.53de43ad.chunk.js",
-    "static/js/2.53de43ad.chunk.js.map": "/magemonkeys/static/js/2.53de43ad.chunk.js.map",
+    "static/js/2.03f294c9.chunk.js": "/magemonkeys/static/js/2.03f294c9.chunk.js",
+    "static/js/2.03f294c9.chunk.js.map": "/magemonkeys/static/js/2.03f294c9.chunk.js.map",
     "index.html": "/magemonkeys/index.html",
-    "precache-manifest.06b3670179832516d2c299b2d3624970.js": "/magemonkeys/precache-manifest.06b3670179832516d2c299b2d3624970.js",
+    "precache-manifest.5ba348ccfbc4fdb6826e7cc1b81fe337.js": "/magemonkeys/precache-manifest.5ba348ccfbc4fdb6826e7cc1b81fe337.js",
     "service-worker.js": "/magemonkeys/service-worker.js",
-    "static/css/main.61a829af.chunk.css.map": "/magemonkeys/static/css/main.61a829af.chunk.css.map",
-    "static/js/2.53de43ad.chunk.js.LICENSE.txt": "/magemonkeys/static/js/2.53de43ad.chunk.js.LICENSE.txt",
+    "static/css/main.eba9704a.chunk.css.map": "/magemonkeys/static/css/main.eba9704a.chunk.css.map",
+    "static/js/2.03f294c9.chunk.js.LICENSE.txt": "/magemonkeys/static/js/2.03f294c9.chunk.js.LICENSE.txt",
     "static/media/App.css": "/magemonkeys/static/media/monkey1.c4531cc4.png",
-    "static/media/home-banner.png": "/magemonkeys/static/media/home-banner.1e7d10f3.png",
-    "static/media/m1.png": "/magemonkeys/static/media/m1.27ebe418.png",
-    "static/media/m2.png": "/magemonkeys/static/media/m2.bdb004be.png",
-    "static/media/m3.png": "/magemonkeys/static/media/m3.7aef77fd.png",
-    "static/media/m5.png": "/magemonkeys/static/media/m5.a3f7ffc1.png"
+    "static/media/b1.png": "/magemonkeys/static/media/b1.b902397e.png",
+    "static/media/inner-banner-b2b.css": "/magemonkeys/static/media/b2b-monkey.a2249cb1.png",
+    "static/media/black-back-img.css": "/magemonkeys/static/media/black-back2.7dece446.jpg",
+    "static/media/inner-banner.css": "/magemonkeys/static/media/contact-monkey.9eb64240.png",
+    "static/media/home-banner.jpg": "/magemonkeys/static/media/home-banner.39bd3a9a.jpg",
+    "static/media/inner-banner.jpg": "/magemonkeys/static/media/inner-banner.27561f0c.jpg",
+    "static/media/map.png": "/magemonkeys/static/media/map.d672fc93.png",
+    "static/media/t-logo3.png": "/magemonkeys/static/media/t-logo3.2e911648.png",
+    "static/media/way.jpg": "/magemonkeys/static/media/way.164de210.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.53aa2f02.js",
-    "static/js/2.53de43ad.chunk.js",
-    "static/css/main.61a829af.chunk.css",
-    "static/js/main.cd378d3e.chunk.js"
+    "static/js/2.03f294c9.chunk.js",
+    "static/css/main.eba9704a.chunk.css",
+    "static/js/main.e59f24a7.chunk.js"
   ]
 }
