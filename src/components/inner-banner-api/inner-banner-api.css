@@ -1,0 +1,35 @@
+h1.api::after {
+  right: 22px;
+  top: 20px;
+  background: url(../../images/api-monkey.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center;
+  width: 150px;
+  height: 150px;
+}
+
+@media (max-width: 1499px) {
+  h1.api::after {
+    right: 13px;
+    width: 110px;
+    height: 110px;
+  }
+}
+
+@media (max-width: 1199px) {
+  h1.api::after {
+    right: 20px;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  h1.api::after {
+    right: 0;
+    width: 40px;
+    height: 40px;
+    top: 0;
+  }
+}

@@ -1,0 +1,28 @@
+.way-cnt {
+  padding-top: 0 !important;
+  padding-bottom: 100px;
+}
+.way-cnt .all {
+  padding-right: 90px;
+}
+
+@media (max-width: 1499px) {
+  .way-cnt .all {
+    padding-right: 70px;
+  }
+  .way-cnt .row-am {
+    padding-bottom: 70px;
+  }
+}
+
+@media (max-width: 991px) {
+  .way-cnt .all {
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cnt {
+    padding-top: 5px;
+  }
+}

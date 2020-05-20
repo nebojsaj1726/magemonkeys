@@ -1,0 +1,35 @@
+h1.d2c::after {
+  right: 67px;
+  top: auto;
+  background: url(../../images/d2c-monkey.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center;
+  width: 160px;
+  height: 160px;
+  bottom: 0;
+}
+
+@media (max-width: 1499px) {
+  h1.d2c::after {
+    right: 47px;
+    width: 115px;
+    height: 115px;
+  }
+}
+
+@media (max-width: 1199px) {
+  h1.d2c::after {
+    right: 36px;
+    width: 71px;
+    height: 71px;
+  }
+}
+
+@media (max-width: 991px) {
+  h1.d2c::after {
+    right: 36px;
+    width: 46px;
+    height: 47px;
+  }
+}

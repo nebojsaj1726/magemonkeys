@@ -65,6 +65,12 @@ html {
   background: #0f6298;
   color: #fff;
 }
+.mobile {
+  display: none;
+}
+.desktop {
+  display: block;
+}
 img {
   border: none !important;
   outline: none;
@@ -485,6 +491,12 @@ p {
   }
 }
 @media (max-width: 767px) {
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
   p {
     font-size: 13px;
     line-height: 20px;

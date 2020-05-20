@@ -1,0 +1,151 @@
+.ecom-main h3 {
+  margin-bottom: 60px;
+}
+.ecom-main .e-com-div img {
+  margin-bottom: 20px;
+}
+.ecom-main .e-com-div .orange-title {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.ecom-main .e-com-div {
+  margin-bottom: 60px;
+}
+.ecom-main .e-com-div p {
+  max-width: 890px;
+}
+.all-week .orange-btn {
+  font-size: 20px;
+  padding: 7px 35px;
+  text-transform: capitalize;
+  font-family: "Conv_AvenirLTStd-Black";
+  font-weight: normal;
+  float: left;
+  margin: 0;
+}
+.all-week .orange-btn {
+  position: relative;
+  z-index: 9999;
+}
+.all-week .left::after {
+  content: "";
+  background: url(../../images/dots.png);
+  height: 100%;
+  width: 10px;
+  z-index: 999;
+  background-size: 100%;
+  background-position: center;
+  position: absolute;
+  left: 86px;
+  right: auto;
+  top: 0;
+  bottom: auto;
+  margin: auto;
+}
+.rocket {
+  position: absolute;
+  bottom: 0;
+  left: 47px;
+  z-index: 9999999;
+}
+.rocket img {
+  margin: 0 !important;
+}
+
+@media (max-width: 1499px) {
+  .ecom-main .e-com-div p {
+    max-width: 670px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .ecom-main h3 {
+    margin-bottom: 40px;
+  }
+  .ecom-main .e-com-div .orange-title {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  .ecom-main .e-com-div p {
+    max-width: 600px;
+  }
+  .all-week .orange-btn {
+    font-size: 15px;
+    padding: 0px 21px;
+  }
+  .all-week .left::after {
+    left: 62px;
+  }
+  .rocket {
+    left: 29px;
+  }
+}
+
+@media (max-width: 991px) {
+  .ecom-main .e-com-div p {
+    max-width: 100%;
+  }
+  .all-week .orange-btn {
+    font-size: 13px;
+    padding: 0px 16px;
+  }
+  .all-week .left::after {
+    left: 52px;
+    width: 8px;
+  }
+  .rocket {
+    left: 13px;
+  }
+}
+
+@media (max-width: 767px) {
+  .ecom-main .e-com-div .orange-title {
+    font-size: 19px;
+  }
+  .rocket {
+    left: 11px;
+    width: 40px;
+  }
+  .rocket img {
+    width: 100%;
+  }
+  .ecom-main .e-com-div p {
+    max-width: 96%;
+  }
+  .ecom-main h3 {
+    text-align: left;
+  }
+  .ecom-main h3 {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  .all-week .right {
+    padding: 30px 0 0 60px;
+  }
+  .all-week .right::after {
+    content: "";
+    background: url(../../images/dots.png);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    height: 100%;
+    width: 8px;
+    z-index: 999;
+    background-size: 100%;
+    background-position: center;
+    position: absolute;
+    left: 27px;
+    right: auto;
+    top: 0;
+    bottom: auto;
+    margin: auto;
+  }
+  .all-week .left::after {
+    display: none;
+  }
+  .all-week .orange-btn {
+    font-size: 13px;
+    padding: 0px 25px;
+    margin-left: -10px;
+  }
+}
