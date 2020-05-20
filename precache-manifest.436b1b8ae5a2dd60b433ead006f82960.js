@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b91369ab0c821eb20dfc5aa553e68c7c",
+    "revision": "3d18af4c965f6977bd0f5103f78db0b5",
     "url": "/magemonkeys/index.html"
   },
   {
-    "revision": "38807d09e805973c2eb9",
-    "url": "/magemonkeys/static/css/main.eba9704a.chunk.css"
+    "revision": "fc6fb61e7c55360e6189",
+    "url": "/magemonkeys/static/css/main.834126c6.chunk.css"
   },
   {
-    "revision": "14c33e7c07f9732db785",
-    "url": "/magemonkeys/static/js/2.03f294c9.chunk.js"
+    "revision": "65f3e37e9c72850f890c",
+    "url": "/magemonkeys/static/js/2.aa71c37d.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/magemonkeys/static/js/2.03f294c9.chunk.js.LICENSE.txt"
+    "url": "/magemonkeys/static/js/2.aa71c37d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "38807d09e805973c2eb9",
-    "url": "/magemonkeys/static/js/main.e59f24a7.chunk.js"
+    "revision": "fc6fb61e7c55360e6189",
+    "url": "/magemonkeys/static/js/main.d9655406.chunk.js"
   },
   {
     "revision": "106768b314f1560607ce",
@@ -84,6 +84,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/magemonkeys/static/media/PlayfairDisplay-Regular.b3721ba3.ttf"
   },
   {
+    "revision": "60b5233133adab393adff7a7c765b0a6",
+    "url": "/magemonkeys/static/media/api-monkey.60b52331.png"
+  },
+  {
     "revision": "0b78ec9d509f67bfe3f8458c9d285df0",
     "url": "/magemonkeys/static/media/avenirltstd-light.0b78ec9d.svg"
   },
@@ -100,10 +104,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/magemonkeys/static/media/avenirltstd-light.f4914038.eot"
   },
   {
-    "revision": "b902397e8c10109a42d5d08dcbbaf3cc",
-    "url": "/magemonkeys/static/media/b1.b902397e.png"
-  },
-  {
     "revision": "a2249cb13528165f8efbaf55fa13f0e3",
     "url": "/magemonkeys/static/media/b2b-monkey.a2249cb1.png"
   },
@@ -116,8 +116,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/magemonkeys/static/media/black-back2.7dece446.jpg"
   },
   {
+    "revision": "cb60d7a76b7652da021f8d3f47931257",
+    "url": "/magemonkeys/static/media/black-right.cb60d7a7.png"
+  },
+  {
     "revision": "9eb642404e561daca388d8fe81e03ec6",
     "url": "/magemonkeys/static/media/contact-monkey.9eb64240.png"
+  },
+  {
+    "revision": "57116533af522b8ba5fdc24d2d534981",
+    "url": "/magemonkeys/static/media/d2c-monkey.57116533.png"
+  },
+  {
+    "revision": "7dc600a66041e58fb842d42f76c281b1",
+    "url": "/magemonkeys/static/media/ecom-monkey.7dc600a6.png"
+  },
+  {
+    "revision": "3acae5b54199e029478ca7962340aefb",
+    "url": "/magemonkeys/static/media/ext-monkey.3acae5b5.png"
   },
   {
     "revision": "39bd3a9a2adc657ebe9994ffbf80cef9",
@@ -134,6 +150,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c4531cc451b694d072be07c7eb321aa1",
     "url": "/magemonkeys/static/media/monkey1.c4531cc4.png"
+  },
+  {
+    "revision": "b3ca029a5994284240741f597fe0eabc",
+    "url": "/magemonkeys/static/media/rocket.b3ca029a.jpg"
+  },
+  {
+    "revision": "5e08ae03da92ffefb329804dfede00ca",
+    "url": "/magemonkeys/static/media/swifty.5e08ae03.png"
   },
   {
     "revision": "2e911648206d608eef23e746da1ac73d",
