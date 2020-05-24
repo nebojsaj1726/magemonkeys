@@ -14,7 +14,6 @@
 .cwu .cwu-inr p {
   margin-bottom: 5px;
   font-weight: bold;
-  font-size: 15px;
 }
 .cwu .cwu-inr img {
   margin-bottom: 30px;
@@ -31,6 +30,7 @@
 }
 
 @media (max-width: 1499px) {
+  .mailto a,
   .cwu .cwu-inr a {
     font-size: 20px;
     line-height: 30px;
@@ -59,6 +59,7 @@
 }
 
 @media (max-width: 767px) {
+  .mailto a,
   .cwu .cwu-inr a {
     font-size: 16px;
     line-height: 20px;

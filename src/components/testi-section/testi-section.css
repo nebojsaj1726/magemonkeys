@@ -1,0 +1,120 @@
+.testi_section {
+  padding: 100px 0;
+  text-align: center;
+}
+.testi_section .header_section {
+  margin-bottom: 15px;
+}
+.testi_section .bx-controls-direction {
+  display: none;
+}
+
+.testi_section .bx-controls {
+  position: inherit;
+}
+.testi_section .bx-wrapper:before {
+  background: url(../../images/quote_icn.png) no-repeat;
+  content: "";
+  float: left;
+  width: 32px;
+  height: 30px;
+  position: absolute;
+  left: -40px;
+  top: 120px;
+  line-height: 1;
+  background-size: contain;
+}
+.testi_section .author_name {
+  font-size: 30px;
+  line-height: 1.2;
+  margin-top: 35px;
+  font-family: "Conv_AvenirLTStd-Black";
+}
+.testi_section .heading {
+  font-size: 60px;
+  margin-bottom: 35px;
+  line-height: 55px;
+}
+.testi_section .bx-viewport {
+  height: auto !important;
+}
+
+.testi_section .bx-pager-link.active {
+  width: 18px;
+  border-radius: 21px;
+  background: #000;
+  float: none;
+}
+.testi_section .bx-pager-link {
+  background: #7f7f7f;
+  width: 6px;
+  height: 6px !important;
+  border-radius: 100%;
+  display: block;
+}
+.bx-pager {
+  margin: 20px 0 !important;
+}
+.testi_section .bx-pager-link:hover {
+  border: transparent;
+}
+
+@media (max-width: 1499px) {
+  .testi_section .bx-wrapper:before {
+    font-size: 68px;
+    top: 58px;
+    left: -25px;
+  }
+  .testi_section .heading {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  .testi_section .author_name {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .testi_section {
+    padding: 70px 0;
+  }
+  .testi_section .heading {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 991px) {
+  .testi_section {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .testi_section .bx-wrapper:before {
+    left: -35px;
+  }
+}
+
+@media (max-width: 767px) {
+  .testi_section .heading {
+    line-height: 1.2;
+  }
+  .testi_section .bx-wrapper:before {
+    left: -35px;
+    top: 85px;
+  }
+}
+
+@media (max-width: 480px) {
+  .testi_section {
+    padding: 50px 40px;
+  }
+  .testi_section .heading {
+    font-size: 26px;
+  }
+  .testi_section .bx-wrapper:before {
+    width: 22px;
+    left: -32px;
+  }
+  .testi_section .author_name {
+    font-size: 18px;
+  }
+}

@@ -100,7 +100,7 @@
 
 .navright .menuicon {
   position: relative;
-  width: 21px;
+  width: 16px;
 }
 .navright .menuicon img {
   width: 39px;
@@ -113,6 +113,61 @@
   letter-spacing: 0.09em;
   margin-top: 11px;
   line-height: normal;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  border-radius: 10px 10px 0 0;
+}
+.dropbtn {
+  color: #ffffff;
+  background-color: transparent;
+  padding: 3px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  font-size: 18px;
+  font-family: "Avenir LT Std";
+  font-weight: lighter;
+  display: block;
+  line-height: 40px;
+}
+.dropdown:hover {
+  background-color: #000;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 36px;
+  background-color: #000;
+  min-width: 250px;
+  z-index: 1;
+  border-radius: 0 10px 10px 10px;
+}
+
+.dropdown-content a {
+  color: #ffffff;
+  background-color: transparent;
+  padding: 2px 20px;
+  text-align: left;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  font-size: 16px;
+  font-family: "Avenir LT Std";
+  font-weight: lighter;
+  display: block;
+  line-height: 40px;
+  width: 100%;
+}
+.dropdown-content a span {
+  margin-right: 15px;
+  padding-top: 12px;
+}
+.dropdown-content a:hover {
+  background-color: #ff7232;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 .sidenav {
   height: 100%;
@@ -259,7 +314,8 @@
 }
 
 @media (max-width: 1400px) {
-  .main_menu > ul > li > a {
+  .main_menu > ul > li > a,
+  .dropbtn {
     font-size: 15px;
     line-height: 30px;
     padding: 3px 15px;
@@ -267,7 +323,8 @@
 }
 
 @media (max-width: 1199px) {
-  .main_menu > ul > li > a {
+  .main_menu > ul > li > a,
+  .dropbtn {
     font-size: 12px;
     line-height: 25px;
     padding: 3px 12px;
@@ -276,6 +333,13 @@
     padding: 3px 12px !important;
     font-size: 13px;
     line-height: 30px;
+  }
+  .dropdown-content {
+    top: 31px;
+    min-width: 220px;
+  }
+  .dropdown-content a {
+    font-size: 14px;
   }
 }
 

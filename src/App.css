@@ -183,19 +183,21 @@ h6 {
   font-weight: normal;
 }
 .orange-btn {
-  background: #f26322;
+  background: #ff7232;
   padding: 0px 18px;
   border-radius: 50px;
   opacity: 1;
   width: auto;
-  float: left;
   margin-top: 20px;
   color: #fff;
-  padding: 0px 60px;
+  padding: 6px 80px;
   font-size: 14px;
   line-height: 40px;
   text-transform: uppercase;
   float: right;
+  font-weight: bold;
+  letter-spacing: 1px;
+  box-shadow: none !important;
 }
 .orange-btn:hover,
 .get-quote a:hover,
@@ -237,9 +239,9 @@ h2 {
   width: 100%;
 }
 h3 {
-  font-size: 30px;
+  font-size: 40px;
   color: #000000;
-  line-height: 30px;
+  line-height: 50px;
   font-family: "Conv_AvenirLTStd-Black";
   margin-bottom: 20px;
   position: relative;
@@ -282,10 +284,6 @@ h6 {
 }
 .orange-title {
   color: #f26322 !important;
-}
-.orange-title {
-  font-size: 30px;
-  margin-bottom: 10px;
 }
 
 .orange-title-small {
@@ -442,6 +440,9 @@ p {
     font-size: 20px;
     line-height: 25px;
     margin-bottom: 10px;
+  }
+  .orange-btn {
+    padding: 6px 60px;
   }
   .black-title {
     font-size: 28px;

@@ -8,7 +8,6 @@ import B2BPage from "./pages/b2b-page";
 import ExtensionDevelopmentPage from "./pages/extension-development-page";
 import EcommercePage from "./pages/ecommerce-page";
 import Down2comPage from "./pages/down2com-page";
-import ApiintegrationPage from "./pages/apiintegration-page";
 
 const App = () => {
   return (
@@ -23,7 +22,6 @@ const App = () => {
         />
         <Route path="/ecommerce" component={EcommercePage} />
         <Route path="/down2com" component={Down2comPage} />
-        <Route path="/apiintegration" component={ApiintegrationPage} />
       </Switch>
     </div>
   );

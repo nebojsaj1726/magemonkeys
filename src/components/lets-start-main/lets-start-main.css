@@ -92,11 +92,11 @@ textarea {
 }
 .test-cont p {
   font-family: "Conv_PlayfairDisplay-Regular";
-  font-size: 45px;
+  font-size: 41px;
   line-height: 60px;
   color: #000000;
   letter-spacing: 1px;
-  width: 80%;
+  padding-right: 33%;
 }
 .test-cont {
   padding-right: 200px;
@@ -159,12 +159,20 @@ textarea {
   }
 }
 
+@media (max-width: 1199px) {
+  .test-cont p {
+    font-size: 26px;
+    line-height: 35px;
+    padding-right: 31%;
+  }
+}
+
 @media (max-width: 991px) {
   .lets-start-main {
     padding: 40px 0;
   }
   .test-cont p {
-    font-size: 25px;
+    font-size: 23px;
     line-height: 31px;
     padding-right: 0;
   }
@@ -189,7 +197,7 @@ textarea {
     padding: 10px 0px 0 50px;
   }
   .test-cont p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 26px;
     padding-right: 0;
   }

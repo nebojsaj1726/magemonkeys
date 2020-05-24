@@ -19,23 +19,92 @@ class Header extends Component {
       <div className="header">
         <div className="container">
           <div className="logowrap">
-            <a href="/#">
+            <Link to="/">
               <img src={logo} alt="" />
-            </a>
+            </Link>
           </div>
           <div className="navright">
             <div id="mainmenu" className="menu nav main_menu">
               <ul className="firstul">
-                <li id="menu-item-20" className="menu-item ">
-                  <a className="" target="_self" href="/#">
-                    Magento Development
-                  </a>
-                </li>
-                <li id="menu-item-25" className="menu-item ">
-                  <a className="" target="_self" href="/#">
-                    Magento Support
-                  </a>
-                </li>
+                <div className="dropdown">
+                  <button className="dropbtn">Magento Development</button>
+
+                  <div className="dropdown-content">
+                    <Link to="/b2b">
+                      <span>
+                        <i className="far fa-arrow-right"></i>
+                      </span>{" "}
+                      B2B Solution
+                    </Link>
+                    <Link to="/extension-development">
+                      <span>
+                        <i className="far fa-arrow-right"></i>
+                      </span>{" "}
+                      Extension Development
+                    </Link>
+                    <Link to="/ecommerce">
+                      <span>
+                        <i className="far fa-arrow-right"></i>
+                      </span>{" "}
+                      E-Commerce
+                    </Link>
+                    <a href="/#">
+                      <span>
+                        <i className="far fa-arrow-right"></i>
+                      </span>{" "}
+                      Migrate to Magento
+                    </a>
+                    <a href="/#">
+                      <span>
+                        <i className="far fa-arrow-right"></i>
+                      </span>{" "}
+                      Magento Mobile App
+                    </a>
+                    <a href="/#">
+                      <span>
+                        <i className="far fa-arrow-right"></i>
+                      </span>{" "}
+                      Magento Marketplace
+                    </a>
+                  </div>
+                </div>
+
+                <div className="dropdown">
+                  <button className="dropbtn">Magento Support</button>
+
+                  <div className="dropdown-content">
+                    <a href="/#">
+                      <span>
+                        <i className="far fa-arrow-right"></i>
+                      </span>{" "}
+                      Upgrade Services
+                    </a>
+                    <Link to="/down2com">
+                      <span>
+                        <i className="far fa-arrow-right"></i>
+                      </span>{" "}
+                      Downgrade to Community
+                    </Link>
+                    <a href="/#">
+                      <span>
+                        <i className="far fa-arrow-right"></i>
+                      </span>{" "}
+                      API Integration
+                    </a>
+                    <a href="/#">
+                      <span>
+                        <i className="far fa-arrow-right"></i>
+                      </span>{" "}
+                      Performance Optimization
+                    </a>
+                    <a href="/#">
+                      <span>
+                        <i className="far fa-arrow-right"></i>
+                      </span>{" "}
+                      Automotive
+                    </a>
+                  </div>
+                </div>
                 <li id="menu-item-25" className="menu-item ">
                   <a className="" target="_self" href="/#">
                     Hire Magento Developer

@@ -1,0 +1,95 @@
+.orng_bg_cont_sec {
+  background: url("../../images/orange_bg.jpg");
+  padding: 50px 0;
+}
+.full_img_cont_wrap {
+  position: relative;
+}
+.col-white,
+.col-white p,
+.col-white .heading {
+  color: #ffffff;
+}
+.content_col_grid {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+}
+.wrap_grid_7 {
+  max-width: calc(50% + 100px);
+  flex: calc(50% + 100px);
+  max-width: -webkit-calc(50% + 100px);
+  flex: -webkit-calc(50% + 100px);
+}
+.wrap_grid_5 {
+  max-width: calc(50% - 100px);
+  flex: 0 0 calc(50% - 100px);
+  max-width: -webkit-calc(50% - 100px);
+  flex: -webkit-calc(50% - 100px);
+}
+.full_img_grid {
+  padding-right: 0;
+}
+.img_grid img {
+  width: 100%;
+  height: auto;
+}
+.inner_grid {
+  max-width: 775px;
+}
+.left .inner_grid {
+  margin-left: auto;
+  padding-right: 20px;
+}
+.font_48 {
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+@media (max-width: 1499px) {
+  .inner_grid {
+    max-width: 625px;
+  }
+  .font_48 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 1199px) {
+  .inner_grid {
+    padding-left: 7%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .full_img_cont_wrap .full_img_grid {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .full_img_grid.right .img_grid {
+    max-width: 80%;
+  }
+  .full_img_grid.right .img_grid {
+    margin-left: auto;
+  }
+  .wrap_grid_7,
+  .wrap_grid_5 {
+    max-width: 100%;
+    flex: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .font_48 {
+    font-size: 28px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+}

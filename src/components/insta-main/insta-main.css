@@ -1,10 +1,7 @@
 .insta-main .ins-1 {
   position: relative;
 }
-.insta-main .ins-1 .insta-name {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
+.ins-1 img {
+  max-width: auto;
+  height: 100%;
 }

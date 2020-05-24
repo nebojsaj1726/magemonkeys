@@ -1,0 +1,64 @@
+.inner-banner .font_sml {
+  font-size: 90px;
+  line-height: 1.2;
+}
+.inner-banner .font_sml:after {
+  top: auto;
+  background: url(../../images/mmp-monkey.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center;
+  width: 145px;
+  height: 145px;
+  bottom: 14px;
+  right: -90px;
+}
+
+@media (max-width: 1499px) {
+  .inner-banner .font_sml {
+    font-size: 62px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .inner-banner .font_sml {
+    font-size: 52px;
+  }
+  .inner-banner .font_sml:after {
+    width: 115px;
+    height: 115px;
+  }
+}
+
+@media (max-width: 991px) {
+  .inner-banner .font_sml {
+    font-size: 50px;
+  }
+  .inner-banner .font_sml:after {
+    width: 105px;
+    height: 105px;
+    right: -60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .inner-banner .font_sml {
+    font-size: 42px;
+  }
+  .inner-banner .font_sml:after {
+    width: 75px;
+    height: 85px;
+    right: -55px;
+  }
+}
+
+@media (max-width: 480px) {
+  .inner-banner .font_sml {
+    font-size: 29px;
+  }
+  .inner-banner .font_sml:after {
+    width: 65px;
+    height: 65px;
+    right: -44px;
+  }
+}
