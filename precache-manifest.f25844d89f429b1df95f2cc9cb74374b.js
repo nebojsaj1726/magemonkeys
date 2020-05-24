@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3d18af4c965f6977bd0f5103f78db0b5",
+    "revision": "050bf1b0cafd54e6a2818cd1cc51ece0",
     "url": "/magemonkeys/index.html"
   },
   {
-    "revision": "fc6fb61e7c55360e6189",
-    "url": "/magemonkeys/static/css/main.834126c6.chunk.css"
+    "revision": "603d9a17fd1b5c257d33",
+    "url": "/magemonkeys/static/css/main.1bde702d.chunk.css"
   },
   {
-    "revision": "65f3e37e9c72850f890c",
-    "url": "/magemonkeys/static/js/2.aa71c37d.chunk.js"
+    "revision": "250a62d0ef5128545782",
+    "url": "/magemonkeys/static/js/2.17dea658.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/magemonkeys/static/js/2.aa71c37d.chunk.js.LICENSE.txt"
+    "url": "/magemonkeys/static/js/2.17dea658.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fc6fb61e7c55360e6189",
-    "url": "/magemonkeys/static/js/main.d9655406.chunk.js"
+    "revision": "603d9a17fd1b5c257d33",
+    "url": "/magemonkeys/static/js/main.308f3caa.chunk.js"
   },
   {
     "revision": "106768b314f1560607ce",
@@ -84,10 +84,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/magemonkeys/static/media/PlayfairDisplay-Regular.b3721ba3.ttf"
   },
   {
-    "revision": "60b5233133adab393adff7a7c765b0a6",
-    "url": "/magemonkeys/static/media/api-monkey.60b52331.png"
-  },
-  {
     "revision": "0b78ec9d509f67bfe3f8458c9d285df0",
     "url": "/magemonkeys/static/media/avenirltstd-light.0b78ec9d.svg"
   },
@@ -116,16 +112,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/magemonkeys/static/media/black-back2.7dece446.jpg"
   },
   {
-    "revision": "cb60d7a76b7652da021f8d3f47931257",
-    "url": "/magemonkeys/static/media/black-right.cb60d7a7.png"
-  },
-  {
     "revision": "9eb642404e561daca388d8fe81e03ec6",
     "url": "/magemonkeys/static/media/contact-monkey.9eb64240.png"
   },
   {
-    "revision": "57116533af522b8ba5fdc24d2d534981",
-    "url": "/magemonkeys/static/media/d2c-monkey.57116533.png"
+    "revision": "a460410ebd377475a0ac250525340886",
+    "url": "/magemonkeys/static/media/d2c-monkey.a460410e.png"
   },
   {
     "revision": "7dc600a66041e58fb842d42f76c281b1",
