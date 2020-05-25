@@ -148,7 +148,7 @@
 .dropdown-content a {
   color: #ffffff;
   background-color: transparent;
-  padding: 2px 20px;
+  padding: 6px 20px;
   text-align: left;
   text-decoration: none;
   transition: all 0.3s ease 0s;
@@ -318,7 +318,7 @@
   .dropbtn {
     font-size: 15px;
     line-height: 30px;
-    padding: 3px 15px;
+    padding: 5px 15px;
   }
   .dropdown-content a span {
     padding-top: 9px;
@@ -330,7 +330,7 @@
   .dropbtn {
     font-size: 12px;
     line-height: 25px;
-    padding: 3px 12px;
+    padding: 4px 12px;
   }
   .get-quote a {
     padding: 3px 12px !important;
