@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/magemonkeys/static/css/main.70856f96.chunk.css",
+    "main.css": "/magemonkeys/static/css/main.1d1c5f38.chunk.css",
     "main.js": "/magemonkeys/static/js/main.95e234ad.chunk.js",
     "main.js.map": "/magemonkeys/static/js/main.95e234ad.chunk.js.map",
     "runtime-main.js": "/magemonkeys/static/js/runtime-main.53aa2f02.js",
@@ -8,9 +8,9 @@
     "static/js/2.3504c043.chunk.js": "/magemonkeys/static/js/2.3504c043.chunk.js",
     "static/js/2.3504c043.chunk.js.map": "/magemonkeys/static/js/2.3504c043.chunk.js.map",
     "index.html": "/magemonkeys/index.html",
-    "precache-manifest.237c724455d7937a1c5db1e81fa223d4.js": "/magemonkeys/precache-manifest.237c724455d7937a1c5db1e81fa223d4.js",
+    "precache-manifest.983e1d2cac72793204eb2cd5256dbe5d.js": "/magemonkeys/precache-manifest.983e1d2cac72793204eb2cd5256dbe5d.js",
     "service-worker.js": "/magemonkeys/service-worker.js",
-    "static/css/main.70856f96.chunk.css.map": "/magemonkeys/static/css/main.70856f96.chunk.css.map",
+    "static/css/main.1d1c5f38.chunk.css.map": "/magemonkeys/static/css/main.1d1c5f38.chunk.css.map",
     "static/js/2.3504c043.chunk.js.LICENSE.txt": "/magemonkeys/static/js/2.3504c043.chunk.js.LICENSE.txt",
     "static/media/App.css": "/magemonkeys/static/media/monkey1.c4531cc4.png",
     "static/media/inner-banner-api.css": "/magemonkeys/static/media/api-monkey.60b52331.png",
@@ -43,7 +43,7 @@
   "entrypoints": [
     "static/js/runtime-main.53aa2f02.js",
     "static/js/2.3504c043.chunk.js",
-    "static/css/main.70856f96.chunk.css",
+    "static/css/main.1d1c5f38.chunk.css",
     "static/js/main.95e234ad.chunk.js"
   ]
 }
