@@ -1,0 +1,88 @@
+.po-main ul {
+  float: left;
+  width: 100%;
+}
+.po-main ul li {
+  background: url(../../images/c-right.png);
+  padding-left: 30px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.po-main.row-am {
+  padding: 0 0 80px;
+}
+.po-main .row {
+  vertical-align: middle;
+  align-items: center;
+}
+.po-main ul li {
+  margin-bottom: 20px;
+  position: relative;
+}
+.row-am li {
+  font-size: 20px;
+  color: #000000;
+  line-height: 30px;
+  font-family: "Conv_avenirltstd-light";
+  font-weight: lighter;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.po-main ul li::before {
+  content: ":";
+  left: 7px;
+  top: 22px;
+  color: #d1d1d1;
+  font-size: 26px;
+  right: auto;
+  width: 10px;
+  height: 100%;
+  position: absolute;
+}
+.po-main ul li:last-child::before {
+  display: none;
+}
+.po-img {
+  width: 120%;
+  margin-left: -19%;
+}
+
+@media (max-width: 1499px) {
+  .po-main ul li::before {
+    top: 18px;
+    font-size: 19px;
+  }
+  .po-main ul li {
+    margin-bottom: 15px;
+    position: relative;
+  }
+  .row-am li {
+    font-size: 15px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .po-img {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .po-main.row-am {
+    padding: 20px 0 50px;
+  }
+  .po-img {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .po-main ul {
+    margin-top: 10px;
+  }
+  .po-main.row-am {
+    padding: 0 0 20px;
+  }
+}

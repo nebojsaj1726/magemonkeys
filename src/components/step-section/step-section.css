@@ -1,0 +1,131 @@
+.step_section {
+  background-color: #313131;
+  position: relative;
+}
+.way_img_col {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+}
+.way_img_col.left {
+  padding-left: 0;
+}
+.step_row_grid .heading {
+  margin-bottom: 60px;
+}
+.step_process_block .step_head {
+  font-size: 30px;
+  color: #ff7232;
+  line-height: 1.2;
+}
+.step_process {
+  counter-reset: my-sec-counter;
+}
+
+.step_process_grid::before {
+  counter-increment: my-sec-counter;
+  font-family: "Conv_AvenirLTStd-Black";
+  content: counter(my-sec-counter);
+  background: #ff7232;
+  width: 58px;
+  height: 58px;
+  font-size: 30px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.step_process_block {
+  flex: 1 0;
+}
+.step_process_block {
+  flex: 1 0;
+  padding-left: 25px;
+}
+.step_process_grid {
+  display: flex;
+  display: -webkit-flex;
+  width: 100%;
+  float: left;
+  position: relative;
+  padding-bottom: 15px;
+}
+.step_process_grid:not(:last-child):after {
+  content: "";
+  background: url(../../images/dots.png);
+  height: 100%;
+  width: 8px;
+  background-size: 100%;
+  background-position: center;
+  position: absolute;
+  left: 26px;
+  right: auto;
+  top: 0;
+  bottom: auto;
+  margin: auto;
+  z-index: -1;
+}
+.step_title_cont {
+  clear: both;
+  color: #ff7232;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1499px) {
+  .step_section .inner_grid {
+    max-width: 695px;
+  }
+  .step_process_block .step_head {
+    font-size: 22px;
+  }
+  .step_process_grid::before {
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .way_img_col {
+    position: inherit;
+    margin-bottom: 56px;
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 480px) {
+  .way_img_col {
+    margin-bottom: 36px;
+  }
+  .step_row_grid .heading {
+    margin-bottom: 30px;
+  }
+  .step_process_grid::before {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    position: relative;
+    left: 7px;
+  }
+  .step_process_block .step_head {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  .step_process_grid::before {
+    width: 32px;
+    height: 32px;
+    left: 13px;
+    font-size: 16px;
+    margin-left: 0;
+    position: relative;
+    top: -3px;
+  }
+  .step_title_cont {
+    font-size: 16px;
+  }
+}

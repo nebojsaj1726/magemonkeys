@@ -27,10 +27,6 @@
 }
 
 @media (max-width: 1199px) {
-  h1 {
-    font-size: 60px;
-    line-height: 60px;
-  }
   h1::after {
     width: 80px;
     height: 80px;
@@ -47,10 +43,6 @@
 @media (max-width: 991px) {
   .home-banner-content {
     top: 70%;
-  }
-  h1 {
-    font-size: 50px;
-    line-height: 50px;
   }
   h1::after {
     width: 60px;

@@ -1,0 +1,82 @@
+.mmp-detail .api-single {
+  padding: 50px 0;
+  border-top: 4px solid #e7e7e7;
+  height: 100%;
+  float: left;
+  width: 100%;
+}
+.mmp-detail .api-single h4 {
+  font-size: 21px;
+}
+.mmp-detail .api-single p {
+  float: left;
+  padding-right: 40px;
+  margin-bottom: 20px;
+}
+.mmp-detail .col-md-4:first-child .api-single,
+.mmp-detail .col-md-4:nth-child(2) .api-single,
+.mmp-detail .col-md-4:nth-child(3) .api-single,
+.mmp-detail .col-md-4:nth-child(4) .api-single {
+  border-top: none;
+}
+.sem-title {
+  font-family: "Conv_PlayfairDisplay-Regular";
+  font-size: 30px;
+  line-height: 50px;
+  width: 96%;
+  margin: 0 auto 80px;
+}
+
+@media (max-width: 1499px) {
+  .mmp-detail .api-single h4 {
+    font-size: 17px;
+  }
+  .mmp-detail .api-single {
+    padding: 40px 0;
+  }
+  .sem-title {
+    font-size: 25px;
+    line-height: 34px;
+    width: 100%;
+    margin: 0 auto 60px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .mmp-detail .api-single {
+    padding: 20px 0;
+  }
+  .mmp-detail .api-single p {
+    padding-right: 0;
+    margin-bottom: 10px;
+  }
+  .sem-title {
+    font-size: 21px;
+    line-height: 29px;
+    width: 100%;
+    margin: 0 auto 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  .mmp-detail .col-md-4:nth-child(4) .api-single {
+    border-top: 4px solid #e7e7e7;
+  }
+  .sem-title {
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+    margin: 0 auto 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .mmp-detail .col-md-4:nth-child(2) .api-single,
+  .mmp-detail .col-md-4:nth-child(3) .api-single {
+    border-top: 4px solid #e7e7e7;
+  }
+  .mmp-detail .api-single p {
+    padding-right: 0;
+    margin-bottom: 10px;
+  }
+}

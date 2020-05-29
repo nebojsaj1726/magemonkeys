@@ -19,7 +19,7 @@ h1.api::after {
 
 @media (max-width: 1199px) {
   h1.api::after {
-    right: 20px;
+    right: 11px;
     width: 60px;
     height: 60px;
   }

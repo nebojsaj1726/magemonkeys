@@ -5,24 +5,23 @@
 .testi_section .header_section {
   margin-bottom: 15px;
 }
-.testi_section .bx-controls-direction {
-  display: none;
-}
-
-.testi_section .bx-controls {
-  position: inherit;
-}
-.testi_section .bx-wrapper:before {
+.testi_section .header_section:before {
   background: url(../../images/quote_icn.png) no-repeat;
   content: "";
   float: left;
   width: 32px;
   height: 30px;
   position: absolute;
-  left: -40px;
-  top: 120px;
+  left: -30px;
+  top: 135px;
   line-height: 1;
   background-size: contain;
+}
+.gEIJqc {
+  display: none;
+}
+.fptlcG {
+  display: none;
 }
 .testi_section .author_name {
   font-size: 30px;
@@ -35,35 +34,12 @@
   margin-bottom: 35px;
   line-height: 55px;
 }
-.testi_section .bx-viewport {
-  height: auto !important;
-}
-
-.testi_section .bx-pager-link.active {
-  width: 18px;
-  border-radius: 21px;
-  background: #000;
-  float: none;
-}
-.testi_section .bx-pager-link {
-  background: #7f7f7f;
-  width: 6px;
-  height: 6px !important;
-  border-radius: 100%;
-  display: block;
-}
-.bx-pager {
-  margin: 20px 0 !important;
-}
-.testi_section .bx-pager-link:hover {
-  border: transparent;
-}
 
 @media (max-width: 1499px) {
-  .testi_section .bx-wrapper:before {
+  .testi_section .header_section:before {
     font-size: 68px;
-    top: 58px;
-    left: -25px;
+    top: 72px;
+    left: -14px;
   }
   .testi_section .heading {
     font-size: 40px;
@@ -78,6 +54,11 @@
   .testi_section {
     padding: 70px 0;
   }
+  .testi_section .header_section:before {
+    font-size: 68px;
+    top: 73px;
+    left: -27px;
+  }
   .testi_section .heading {
     font-size: 34px;
   }
@@ -88,7 +69,7 @@
     padding-left: 40px;
     padding-right: 40px;
   }
-  .testi_section .bx-wrapper:before {
+  .testi_section .header_section:before {
     left: -35px;
   }
 }
@@ -97,9 +78,9 @@
   .testi_section .heading {
     line-height: 1.2;
   }
-  .testi_section .bx-wrapper:before {
+  .testi_section .header-section:before {
     left: -35px;
-    top: 85px;
+    top: 105px;
   }
 }
 

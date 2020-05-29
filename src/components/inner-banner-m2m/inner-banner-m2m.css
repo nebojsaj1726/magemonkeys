@@ -1,0 +1,46 @@
+h1.m2m::after {
+  right: -90px;
+  top: 81px;
+  background: url(../../images/m2m-monkey.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+  width: 125px;
+  height: 162px;
+  bottom: 0;
+}
+
+@media (max-width: 1499px) {
+  h1.m2m::after {
+    width: 105px;
+    right: -50px;
+    height: 162px;
+  }
+}
+
+@media (max-width: 1199px) {
+  h1.m2m::after {
+    width: 75px;
+    right: -40px;
+    height: 86px;
+    top: 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  h1.m2m::after {
+    width: 55px;
+    right: -38px;
+    height: 86px;
+    top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  h1.m2m::after {
+    width: 45px;
+    right: -38px;
+    height: 76px;
+    top: 0px;
+  }
+}

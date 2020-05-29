@@ -48,24 +48,24 @@ class Header extends Component {
                       </span>{" "}
                       E-Commerce
                     </Link>
-                    <a href="/#">
+                    <Link to="/migrate-to-magento">
                       <span>
                         <i className="far fa-arrow-right"></i>
                       </span>{" "}
                       Migrate to Magento
-                    </a>
-                    <a href="/#">
+                    </Link>
+                    <Link to="/mobile-app">
                       <span>
                         <i className="far fa-arrow-right"></i>
                       </span>{" "}
                       Magento Mobile App
-                    </a>
-                    <a href="/#">
+                    </Link>
+                    <Link to="/mmplace">
                       <span>
                         <i className="far fa-arrow-right"></i>
                       </span>{" "}
                       Magento Marketplace
-                    </a>
+                    </Link>
                   </div>
                 </div>
 
@@ -85,24 +85,24 @@ class Header extends Component {
                       </span>{" "}
                       Downgrade to Community
                     </Link>
-                    <a href="/#">
+                    <Link to="/api-integration">
                       <span>
                         <i className="far fa-arrow-right"></i>
                       </span>{" "}
                       API Integration
-                    </a>
-                    <a href="/#">
+                    </Link>
+                    <Link to="/performance-optimization">
                       <span>
                         <i className="far fa-arrow-right"></i>
                       </span>{" "}
                       Performance Optimization
-                    </a>
-                    <a href="/#">
+                    </Link>
+                    <Link to="/is-automotive">
                       <span>
                         <i className="far fa-arrow-right"></i>
                       </span>{" "}
                       Automotive
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <li id="menu-item-25" className="menu-item ">

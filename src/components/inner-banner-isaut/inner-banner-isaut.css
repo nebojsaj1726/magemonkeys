@@ -32,12 +32,12 @@
 
 @media (max-width: 991px) {
   .inner-banner .font_sml {
-    font-size: 50px;
+    font-size: 42px;
   }
   .inner-banner .font_sml:after {
-    width: 105px;
-    height: 105px;
-    right: -60px;
+    width: 75px;
+    height: 85px;
+    right: -55px;
   }
 }
 
@@ -60,5 +60,17 @@
     width: 65px;
     height: 65px;
     right: -44px;
+  }
+}
+
+@media (max-width: 375px) {
+  .inner-banner .font_sml {
+    font-size: 22px;
+  }
+  .inner-banner .font_sml:after {
+    width: 55px;
+    height: 55px;
+    right: -27px;
+    top: -7px;
   }
 }

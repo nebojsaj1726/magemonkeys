@@ -1,0 +1,9 @@
+.heading_spacing {
+  margin-bottom: 30px;
+}
+.content_bor_block .content_bor_grid:not(:last-child) {
+  border-right: 1px solid #d0d0d0;
+}
+.content_bor_block .content_bor_grid {
+  padding: 0 30px;
+}

@@ -20,7 +20,7 @@ h1.d2c::after {
 
 @media (max-width: 1199px) {
   h1.d2c::after {
-    right: 36px;
+    right: 28px;
     width: 71px;
     height: 71px;
   }
@@ -28,7 +28,7 @@ h1.d2c::after {
 
 @media (max-width: 991px) {
   h1.d2c::after {
-    right: 36px;
+    right: 26px;
     width: 46px;
     height: 47px;
   }

@@ -1,0 +1,21 @@
+.only-cnt p {
+  width: 1090px;
+  margin: 0 auto 30px;
+}
+.only-cnt p:last-child {
+  margin-bottom: 0px;
+}
+
+@media (max-width: 1199px) {
+  .only-cnt p {
+    width: 77%;
+    margin: 0 auto 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .only-cnt p {
+    width: 100%;
+    margin: 0 auto 30px;
+  }
+}

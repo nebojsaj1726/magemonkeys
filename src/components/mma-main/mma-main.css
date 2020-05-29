@@ -1,0 +1,109 @@
+.mma-main.row-am {
+  padding: 120px 0 150px;
+}
+.mma-main .left {
+  left: 0 !important;
+  position: absolute;
+  right: auto;
+  width: 36vw !important;
+  height: 100%;
+  top: 80px;
+  padding-right: 0;
+  padding-left: 0;
+}
+.mma-main .way-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.mma-main h3 {
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+.mma-main .way {
+  margin-top: 80px;
+}
+.mma-main .way h3 {
+  margin-bottom: 30px;
+}
+.mma-main .right {
+  float: right;
+  margin-right: 0;
+  margin-left: auto;
+  -ms-flex: 0 0 67.333%;
+  flex: 0 0 67.333%;
+  max-width: 67.333%;
+}
+.mma-main li {
+  font-size: 20px;
+  color: #000000;
+  line-height: 30px;
+  font-family: "Conv_avenirltstd-light";
+  font-weight: lighter;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.mma-main ul li {
+  padding-left: 20px;
+}
+.mma-main ul li:before {
+  content: "-";
+  position: absolute;
+  left: 16px;
+  color: #000;
+}
+.mma-main.row-am.automotive_info {
+  padding: 0 !important;
+  margin-top: 30px !important;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 1499px) {
+  .mma-main li {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .mma-main.row-am {
+    padding: 70px 0 70px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .mma-main .right {
+    -ms-flex: 0 0 63.333%;
+    flex: 0 0 63.333%;
+    max-width: 63.333%;
+  }
+  .mma-main h3 {
+    font-size: 23px;
+    line-height: 35px;
+    margin-bottom: 10px;
+  }
+  .mma-main ul {
+    margin-bottom: 20px;
+  }
+  .mma-main.row-am {
+    padding: 60px 0 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .mma-main .right {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .mma-main .left {
+    position: relative;
+    width: 100% !important;
+    top: 0;
+    margin-bottom: 20px;
+    margin-left: -6%;
+  }
+  .mma-main h3 {
+    font-size: 19px;
+    line-height: 24px;
+  }
+}

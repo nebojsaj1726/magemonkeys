@@ -12,16 +12,16 @@ h1.b2b::after {
 
 @media (max-width: 1499px) {
   h1.b2b::after {
-    right: 224px;
+    right: 220px;
     width: 170px;
     height: 170px;
-    bottom: -65px;
+    bottom: -61px;
   }
 }
 
 @media (max-width: 1199px) {
   h1.b2b::after {
-    right: 160px;
+    right: 136px;
     width: 100px;
     height: 100px;
     bottom: -36px;
@@ -30,10 +30,10 @@ h1.b2b::after {
 
 @media (max-width: 991px) {
   h1.b2b::after {
-    right: 135px;
+    right: 105px;
     width: 80px;
     height: 80px;
-    bottom: -30px;
+    bottom: -34px;
   }
 }
 
