@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8015b77f2673b0b5dc477e6f016fca7b",
+    "revision": "46e4392ee89973d36923512f61a4095f",
     "url": "/magemonkeys/index.html"
   },
   {
-    "revision": "5d8fcd84dfe6012aa627",
-    "url": "/magemonkeys/static/css/main.62a15d40.chunk.css"
+    "revision": "0e846f3120ebfdf0dd6f",
+    "url": "/magemonkeys/static/css/main.70856f96.chunk.css"
   },
   {
-    "revision": "250a62d0ef5128545782",
-    "url": "/magemonkeys/static/js/2.17dea658.chunk.js"
+    "revision": "6e2afd4c1bbc786029e1",
+    "url": "/magemonkeys/static/js/2.3504c043.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/magemonkeys/static/js/2.17dea658.chunk.js.LICENSE.txt"
+    "revision": "8bc88370bc2489d86f2f357f447ddb0b",
+    "url": "/magemonkeys/static/js/2.3504c043.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5d8fcd84dfe6012aa627",
-    "url": "/magemonkeys/static/js/main.308f3caa.chunk.js"
+    "revision": "0e846f3120ebfdf0dd6f",
+    "url": "/magemonkeys/static/js/main.95e234ad.chunk.js"
   },
   {
     "revision": "106768b314f1560607ce",
@@ -84,6 +84,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/magemonkeys/static/media/PlayfairDisplay-Regular.b3721ba3.ttf"
   },
   {
+    "revision": "60b5233133adab393adff7a7c765b0a6",
+    "url": "/magemonkeys/static/media/api-monkey.60b52331.png"
+  },
+  {
+    "revision": "e309e94cf8be1868fc34c687f65f1e53",
+    "url": "/magemonkeys/static/media/automotive_left.e309e94c.jpg"
+  },
+  {
     "revision": "0b78ec9d509f67bfe3f8458c9d285df0",
     "url": "/magemonkeys/static/media/avenirltstd-light.0b78ec9d.svg"
   },
@@ -112,6 +120,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/magemonkeys/static/media/black-back2.7dece446.jpg"
   },
   {
+    "revision": "cb60d7a76b7652da021f8d3f47931257",
+    "url": "/magemonkeys/static/media/black-right.cb60d7a7.png"
+  },
+  {
     "revision": "9eb642404e561daca388d8fe81e03ec6",
     "url": "/magemonkeys/static/media/contact-monkey.9eb64240.png"
   },
@@ -136,16 +148,52 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/magemonkeys/static/media/inner-banner.27561f0c.jpg"
   },
   {
+    "revision": "1bb15893533aed1cea58abf0049c3c60",
+    "url": "/magemonkeys/static/media/m2m-monkey.1bb15893.png"
+  },
+  {
+    "revision": "49399c5012a3d4c2fb1513ae51bd0057",
+    "url": "/magemonkeys/static/media/magento_bg_img.49399c50.png"
+  },
+  {
+    "revision": "10b86d9548bf3701b22a8f9088589572",
+    "url": "/magemonkeys/static/media/magento_plat_img.10b86d95.png"
+  },
+  {
     "revision": "d672fc935f98e6386a683353bdc89636",
     "url": "/magemonkeys/static/media/map.d672fc93.png"
+  },
+  {
+    "revision": "d55f98b06cffb8815ad05daef1a24e86",
+    "url": "/magemonkeys/static/media/megnto_icn.d55f98b0.png"
+  },
+  {
+    "revision": "2030b35ab708670205980ce977a68c1d",
+    "url": "/magemonkeys/static/media/mma-back.2030b35a.jpg"
+  },
+  {
+    "revision": "99775d14700f76e00f55bd3ad2503932",
+    "url": "/magemonkeys/static/media/mma-left.99775d14.jpg"
+  },
+  {
+    "revision": "e8a6ab5e7af5bafe236985953f8f086f",
+    "url": "/magemonkeys/static/media/mmp-monkey.e8a6ab5e.png"
   },
   {
     "revision": "c4531cc451b694d072be07c7eb321aa1",
     "url": "/magemonkeys/static/media/monkey1.c4531cc4.png"
   },
   {
+    "revision": "1064f6c0574a8e4221b29edff13a1309",
+    "url": "/magemonkeys/static/media/orange_bg.1064f6c0.jpg"
+  },
+  {
     "revision": "b3ca029a5994284240741f597fe0eabc",
     "url": "/magemonkeys/static/media/rocket.b3ca029a.jpg"
+  },
+  {
+    "revision": "fc3ec0e07caf7e575f8d2bf9023f9594",
+    "url": "/magemonkeys/static/media/speed.fc3ec0e0.jpg"
   },
   {
     "revision": "5e08ae03da92ffefb329804dfede00ca",
