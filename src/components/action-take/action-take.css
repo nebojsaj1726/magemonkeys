@@ -1,0 +1,79 @@
+.action_take .container {
+  background: url("../../images/action_orang_bg.jpg") no-repeat;
+}
+.action_take.row-am {
+  padding-top: 0;
+}
+.action_take_box {
+  padding: 0 15px;
+}
+.action_take .container {
+  background: url(../../images/action_orang_bg.jpg) no-repeat;
+  padding: 50px;
+  background-size: cover;
+  border-radius: 30px;
+}
+.action_take_box .step_head {
+  font-size: 24px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+.action_take_box img {
+  margin-bottom: 25px;
+}
+.action_take_box p {
+  color: #fff;
+}
+.big_heading {
+  font-size: 60px;
+}
+.action_take .big_heading {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1499px) {
+  .action_take_box .step_head {
+    font-size: 21px;
+    margin-bottom: 15px;
+  }
+  .big_heading {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .action_take_box .step_head {
+    font-size: 18px;
+  }
+  .big_heading {
+    font-size: 35px;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 991px) {
+  .action_take_box img {
+    height: 72px;
+  }
+  .big_heading {
+    font-size: 29px;
+    line-height: 19px;
+  }
+}
+
+@media (max-width: 767px) {
+  .action_take_box {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .action_take .container {
+    padding-bottom: 12px;
+  }
+  .big_heading {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .action_take .big_heading {
+    margin-bottom: 38px;
+  }
+}

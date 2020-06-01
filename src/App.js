@@ -14,6 +14,8 @@ import MagentoMarketPlacePage from "./pages/mmplace-page";
 import MobileAppPage from "./pages/mobile-app-page";
 import MigrateToMagentoPage from "./pages/migrate-to-magento-page";
 import PerformanceOptimizationPage from "./pages/performance-optimization-page";
+import UpgradeServicesPage from "./pages/upgrade-services-page";
+import WorkPage from "./pages/work-page";
 
 const App = () => {
   return (
@@ -37,6 +39,8 @@ const App = () => {
           path="/performance-optimization"
           component={PerformanceOptimizationPage}
         />
+        <Route path="/upgrade-services" component={UpgradeServicesPage} />
+        <Route path="/work" component={WorkPage} />
       </Switch>
     </div>
   );

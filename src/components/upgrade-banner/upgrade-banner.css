@@ -1,0 +1,134 @@
+.upgrade_banner .inner-banner-content {
+  top: 53%;
+}
+.upgrade_banner .inner-banner-content .row {
+  align-items: center;
+}
+.upgrade_banner h1:after {
+  display: none;
+}
+.get_quote {
+  background: #fff;
+  float: left;
+  width: 100%;
+  padding: 20px 30px;
+  position: relative;
+}
+.get_quote .form-control {
+  font-family: "Conv_Avenir Heavy";
+}
+
+.get_quote ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  opacity: 0.2;
+}
+.get_quote ::-moz-placeholder {
+  /* Firefox 19+ */
+  opacity: 0.2;
+}
+.get_quote :-ms-input-placeholder {
+  /* IE 10+ */
+  opacity: 0.2;
+}
+.get_quote :-moz-placeholder {
+  /* Firefox 18- */
+  opacity: 0.2;
+}
+.get_quote .btn {
+  background-color: #ffc000;
+  font-family: "Conv_AvenirLTStd-Black";
+  font-size: 20px;
+  max-width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  width: 100%;
+  line-height: 1.2;
+  margin-top: 15px;
+  border-radius: 3px;
+}
+.get_quote:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 7px;
+  background: #ff7232;
+  left: 0;
+  border-top: 2px solid #fff;
+}
+.get_quote form label {
+  font-size: 15px;
+  line-height: 1;
+}
+.get_quote:before {
+  content: "";
+  display: block;
+  top: auto;
+  background: url(../../images/upgrade_monkey.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center;
+  width: 220px;
+  height: 190px;
+  bottom: -20px;
+  position: absolute;
+  left: -210px;
+}
+
+@media (max-width: 1499px) {
+  .upgrade_banner img {
+    height: 520px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 991px) {
+  .upgrade_banner img {
+    height: 460px;
+  }
+  .get_quote:before {
+    height: 150px;
+    width: 150px;
+    left: -180px;
+  }
+  .get_quote .btn {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  .get_quote:before {
+    height: 130px;
+    width: 130px;
+    left: -120px;
+    bottom: 20px;
+  }
+  .get_quote {
+    padding: 20px 15px;
+  }
+  .get_quote .form-control {
+    font-size: 12px;
+  }
+  .get_quote form label {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 767px) {
+  .upgrade_banner .inner-banner-content {
+    position: inherit;
+    transform: inherit;
+  }
+  .upgrade_banner img {
+    position: absolute;
+    height: 100% !important;
+    top: 0;
+  }
+  .upgrade_banner .yellow-title {
+    padding: 50px 0;
+  }
+  .inner-banner.upgrade_banner {
+    padding: 50px 0;
+  }
+  .get_quote_col {
+    padding-left: 90px;
+  }
+}

@@ -1,0 +1,79 @@
+.services_info_sec {
+  padding-top: 0 !important;
+}
+.services_certi_sec .ser_cer_box {
+  background: #000000;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 30px;
+}
+.services_certi_sec {
+  margin-top: -67px;
+}
+.ser_cont {
+  color: #ffffff;
+  font-family: "Conv_Avenir Heavy";
+  flex: 1 0;
+  font-size: 24px;
+  line-height: 1.2;
+  margin-left: 20px;
+}
+.services_letest_info {
+  align-items: center;
+}
+.info_heading {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+@media (max-width: 1499px) {
+  .ser_cer_box .icn img {
+    height: 41px;
+  }
+  .ser_cont {
+    font-size: 18px;
+  }
+  .info_heading {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .ser_cont {
+    font-size: 16px;
+  }
+  .info_heading {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 991px) {
+  .services_certi_sec {
+    margin-top: -42px;
+  }
+  .ser_cer_box .icn img {
+    height: 34px;
+  }
+  .ser_cont {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .services_certi_sec {
+    margin-top: 0;
+  }
+  .services_certi_sec {
+    padding-top: 40px;
+  }
+  .services_certi_sec [class*="col-"]:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .info_cont_col {
+    margin-bottom: 30px;
+  }
+}

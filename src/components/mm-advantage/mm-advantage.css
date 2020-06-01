@@ -1,0 +1,21 @@
+.mm_adv_box .adv_icn {
+  margin-bottom: 25px;
+}
+.mm_adv_box p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1199px) {
+  .mm_adv_box .adv_icn img {
+    height: 48px;
+    object-fit: scale-down;
+  }
+}
+
+@media (max-width: 767px) {
+  .mm_adv_row .col {
+    max-width: 50%;
+    flex: 50% 0 0;
+    margin-bottom: 32px;
+  }
+}

@@ -1,0 +1,53 @@
+.upgrade_service .orange-title {
+  font-size: 30px;
+}
+.upgrade_service_box {
+  text-align: center;
+}
+.upgrade_service_box .upg_ser_icn img {
+  display: block;
+  margin: auto;
+  height: 86px;
+  object-fit: scale-down;
+}
+.upgrade_service_box .upg_ser_icn {
+  margin-bottom: 20px;
+}
+.upgrade_service_box p {
+  font-family: "Conv_Avenir Heavy";
+  margin-bottom: 0;
+}
+.upgrade_service {
+  background-image: url(../../images/upgread_service_bg.jpg);
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-color: #313131;
+}
+.upgrade_service_box p {
+  color: #fff;
+}
+.heading_spacing {
+  margin-bottom: 30px;
+}
+.upgrade_ser_col {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1499px) {
+  .upgrade_service .orange-title {
+    font-size: 26px;
+  }
+  .upgrade_service_box .upg_ser_icn img {
+    height: 66px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .upgrade_service_box .upg_ser_icn img {
+    height: 52px;
+  }
+  .upgrade_service {
+    background-size: cover;
+  }
+}

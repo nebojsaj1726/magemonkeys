@@ -1,0 +1,108 @@
+.all-work-row {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  padding: 40px 0;
+}
+.all-work-img {
+  text-align: center;
+}
+.all-work-row.left-img p {
+  max-width: 68%;
+}
+.all-work-row p {
+  margin-bottom: 30px;
+}
+.all-work-cont .orange-btn {
+  float: left;
+  font-size: 18px;
+  font-family: "Conv_Avenir Heavy";
+  font-weight: normal;
+  text-transform: capitalize;
+  padding: 10px 30px;
+}
+.all-work-cont .orange-btn img {
+  margin-left: 20px;
+  margin-right: -8px;
+}
+.all-work-cont h3 {
+  font-size: 90px;
+  line-height: 90px;
+  max-width: 100%;
+}
+
+@media (max-width: 1499px) {
+  .all-work-row {
+    padding: 20px 0;
+  }
+  .all-work-row p {
+    margin-bottom: 20px;
+  }
+  .all-work-cont h3 {
+    font-size: 62px;
+    line-height: 70px;
+    max-width: 100%;
+  }
+  .all-work-cont .orange-btn {
+    font-size: 16px;
+    padding: 7px 28px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .all-work-row p {
+    margin-bottom: 10px;
+  }
+  .all-work-row.left-img p {
+    max-width: 77%;
+  }
+  .all-work-cont h3 {
+    font-size: 55px;
+    line-height: 60px;
+  }
+  .all-work-cont .orange-btn {
+    font-size: 14px;
+    padding: 5px 19px;
+  }
+}
+
+@media (max-width: 991px) {
+  .all-work-row.left-img {
+    flex-direction: column-reverse;
+  }
+  .all-work-row.left-img p {
+    max-width: 100%;
+  }
+  .all-work-cont h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .all-work-cont .orange-btn {
+    font-size: 13px;
+    padding: 1px 20px;
+    margin: 10px 0 0;
+  }
+  .all-work-cont {
+    text-align: center;
+    padding: 40px 0;
+  }
+  .all-work-cont h3 {
+    text-align: center;
+  }
+  .all-work-cont .orange-btn {
+    margin: 10px auto 0;
+    float: none;
+    width: auto;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 767px) {
+  .all-work-cont h3 {
+    font-size: 27px;
+    line-height: 44px;
+  }
+  .all-work-cont {
+    padding: 20px 0;
+  }
+}

@@ -73,12 +73,12 @@ class Header extends Component {
                   <button className="dropbtn">Magento Support</button>
 
                   <div className="dropdown-content">
-                    <a href="/#">
+                    <Link to="/upgrade-services">
                       <span>
                         <i className="far fa-arrow-right"></i>
                       </span>{" "}
                       Upgrade Services
-                    </a>
+                    </Link>
                     <Link to="/down2com">
                       <span>
                         <i className="far fa-arrow-right"></i>
@@ -106,14 +106,10 @@ class Header extends Component {
                   </div>
                 </div>
                 <li id="menu-item-25" className="menu-item ">
-                  <a className="" target="_self" href="/#">
-                    Hire Magento Developer
-                  </a>
+                  <Link to="#">Hire Magento Developer</Link>
                 </li>
                 <li id="menu-item-25" className="menu-item ">
-                  <a className="" target="_self" href="/#">
-                    Work
-                  </a>
+                  <Link to="/work">Work</Link>
                 </li>
                 <li id="menu-item-25" className="menu-item ">
                   <Link to="/contact">Contact</Link>
