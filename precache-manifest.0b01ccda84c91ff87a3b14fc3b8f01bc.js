@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b3879533ad61b90d42b756885318d9a3",
+    "revision": "4aebeb8b463a18ab5a170b3537483c39",
     "url": "/magemonkeys/index.html"
   },
   {
-    "revision": "4e5fbb63337af0a42b4a",
-    "url": "/magemonkeys/static/css/main.1d1c5f38.chunk.css"
+    "revision": "621df99a2f85cee33655",
+    "url": "/magemonkeys/static/css/main.85c23982.chunk.css"
   },
   {
-    "revision": "6e2afd4c1bbc786029e1",
-    "url": "/magemonkeys/static/js/2.3504c043.chunk.js"
+    "revision": "609efb653ea94986cc43",
+    "url": "/magemonkeys/static/js/2.1f2b0494.chunk.js"
   },
   {
     "revision": "8bc88370bc2489d86f2f357f447ddb0b",
-    "url": "/magemonkeys/static/js/2.3504c043.chunk.js.LICENSE.txt"
+    "url": "/magemonkeys/static/js/2.1f2b0494.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4e5fbb63337af0a42b4a",
-    "url": "/magemonkeys/static/js/main.95e234ad.chunk.js"
+    "revision": "621df99a2f85cee33655",
+    "url": "/magemonkeys/static/js/main.24a76ef7.chunk.js"
   },
   {
     "revision": "106768b314f1560607ce",
@@ -82,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b3721ba3bde34e5b38b0e1523cccfd7f",
     "url": "/magemonkeys/static/media/PlayfairDisplay-Regular.b3721ba3.ttf"
+  },
+  {
+    "revision": "324ac1ee0ad2124a98f47a1a8c83b60d",
+    "url": "/magemonkeys/static/media/action_orang_bg.324ac1ee.jpg"
   },
   {
     "revision": "60b5233133adab393adff7a7c765b0a6",
@@ -168,6 +172,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/magemonkeys/static/media/megnto_icn.d55f98b0.png"
   },
   {
+    "revision": "a5c44bb615c22497bcc88130ead11f0c",
+    "url": "/magemonkeys/static/media/migrate_service.a5c44bb6.jpg"
+  },
+  {
     "revision": "2030b35ab708670205980ce977a68c1d",
     "url": "/magemonkeys/static/media/mma-back.2030b35a.jpg"
   },
@@ -192,6 +200,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/magemonkeys/static/media/rocket.b3ca029a.jpg"
   },
   {
+    "revision": "bf12543097fd186ddaacad9649567a6c",
+    "url": "/magemonkeys/static/media/services_info_img.bf125430.png"
+  },
+  {
     "revision": "fc3ec0e07caf7e575f8d2bf9023f9594",
     "url": "/magemonkeys/static/media/speed.fc3ec0e0.jpg"
   },
@@ -204,7 +216,31 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/magemonkeys/static/media/t-logo3.2e911648.png"
   },
   {
+    "revision": "b60fa6853742fe80e0d39bfab9ca1979",
+    "url": "/magemonkeys/static/media/upgrade_monkey.b60fa685.png"
+  },
+  {
+    "revision": "d6c3d5d9d7f3edd63b24d412f8e98c08",
+    "url": "/magemonkeys/static/media/upgread_service_bg.d6c3d5d9.jpg"
+  },
+  {
+    "revision": "4a2ebcba5006938affa7a4661ff8fc97",
+    "url": "/magemonkeys/static/media/w1.4a2ebcba.jpg"
+  },
+  {
+    "revision": "f4bc5119440af664f8340e6bcf31dfa5",
+    "url": "/magemonkeys/static/media/w2.f4bc5119.jpg"
+  },
+  {
+    "revision": "e00ea431be5c06a4a98dbb8b5462da40",
+    "url": "/magemonkeys/static/media/w3.e00ea431.jpg"
+  },
+  {
     "revision": "164de2101e6e255087d999140f20e71e",
     "url": "/magemonkeys/static/media/way.164de210.jpg"
+  },
+  {
+    "revision": "2ec056e82958a62d46f8092a474170bc",
+    "url": "/magemonkeys/static/media/work-monkey.2ec056e8.png"
   }
 ]);
