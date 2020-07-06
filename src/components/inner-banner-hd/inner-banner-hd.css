@@ -1,0 +1,93 @@
+.inner-banner h1.hd::after {
+  right: -120px;
+  top: auto;
+  background: url(../../images/contact-monkey.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+  width: 225px;
+  height: 212px;
+  bottom: 0;
+}
+
+@media (max-width: 1499px) {
+  .inner-banner h1.hd::after {
+    right: -80px;
+    width: 145px;
+    height: 142px;
+    bottom: 0;
+  }
+  .inner-banner .font_sml {
+    font-size: 62px;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 1199px) {
+  .inner-banner h1.hd::after {
+    right: -62px;
+    width: 115px;
+    height: 112px;
+    bottom: 0;
+  }
+  .inner-banner .font_sml {
+    font-size: 52px;
+  }
+  .inner-banner .font_sml:after {
+    width: 115px;
+    height: 115px;
+  }
+}
+
+@media (max-width: 991px) {
+  .inner-banner .font_sml {
+    font-size: 42px;
+  }
+  .inner-banner .font_sml:after {
+    width: 75px;
+    height: 85px;
+    right: -55px;
+  }
+}
+
+@media (max-width: 767px) {
+  .inner-banner h1.hd::after {
+    right: -39px;
+    width: 65px;
+    height: 62px;
+    bottom: 0;
+  }
+  .inner-banner .font_sml {
+    font-size: 24px;
+  }
+  .inner-banner .font_sml::after {
+    width: 65px;
+    height: 65px;
+    right: -34px;
+    bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .inner-banner .font_sml {
+    font-size: 23px;
+  }
+  .inner-banner .font_sml:after {
+    width: 65px;
+    height: 65px;
+    right: -34px;
+    bottom: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .inner-banner .font_sml {
+    font-size: 18px;
+  }
+  .inner-banner .font_sml:after {
+    width: 55px;
+    height: 55px;
+    right: -27px;
+    top: -7px;
+  }
+}

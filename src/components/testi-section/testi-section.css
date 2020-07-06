@@ -2,6 +2,10 @@
   padding: 100px 0;
   text-align: center;
 }
+.testi_section p {
+  font-size: 18px;
+  line-height: 25px;
+}
 .testi_section .header_section {
   margin-bottom: 15px;
 }
@@ -78,6 +82,10 @@
   .testi_section .header-section:before {
     left: -35px;
     top: 105px;
+  }
+  .testi_section p {
+    font-size: 15px;
+    line-height: 20px;
   }
 }
 

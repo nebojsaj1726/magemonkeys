@@ -1,0 +1,11 @@
+.hd.only-cnt-main ul li {
+  margin-bottom: 6px;
+}
+.only-cnt-main.hd ul {
+  float: left;
+}
+@media (max-width: 1499px) {
+  .only-cnt-main ul li {
+    background-position: left top 1px;
+  }
+}

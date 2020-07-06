@@ -1,0 +1,10 @@
+.hd-cnt p {
+  margin: auto;
+  width: 1000px;
+}
+
+@media (max-width: 1199px) {
+  .hd-cnt p {
+    width: 100%;
+  }
+}

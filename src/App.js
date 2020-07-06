@@ -16,6 +16,9 @@ import MigrateToMagentoPage from "./pages/migrate-to-magento-page";
 import PerformanceOptimizationPage from "./pages/performance-optimization-page";
 import UpgradeServicesPage from "./pages/upgrade-services-page";
 import WorkPage from "./pages/work-page";
+import HireDevelopersPage from "./pages/hire-developers-page";
+import ConsumerGoodsPage from "./pages/consumer-goods-page";
+import FashionAndApparelPage from "./pages/fashion-and-apparel-page";
 
 const App = () => {
   return (
@@ -41,6 +44,9 @@ const App = () => {
         />
         <Route path="/upgrade-services" component={UpgradeServicesPage} />
         <Route path="/work" component={WorkPage} />
+        <Route path="/hire-developers" component={HireDevelopersPage} />
+        <Route path="/consumer-goods" component={ConsumerGoodsPage} />
+        <Route path="/fashion-and-apparel" component={FashionAndApparelPage} />
       </Switch>
     </div>
   );

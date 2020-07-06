@@ -5,6 +5,10 @@
 .full_img_cont_wrap {
   position: relative;
 }
+.orng_bg_cont_sec.cg .sub-title {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
 .col-white,
 .col-white p,
 .col-white .heading {
@@ -42,7 +46,7 @@
   padding-right: 20px;
 }
 .font_48 {
-  font-size: 48px;
+  font-size: 46px;
   line-height: 1.2;
 }
 

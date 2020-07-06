@@ -1,0 +1,41 @@
+.inner-banner .font_sml::after {
+  top: auto;
+  background: url(../../images/mmp-monkey-1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center;
+  width: 195px;
+  height: 195px;
+  bottom: 46px;
+  right: -100px;
+}
+@media (max-width: 1499px) {
+  .inner-banner .font_sml:after {
+    width: 155px;
+    height: 155px;
+    right: -80px;
+    bottom: 20px;
+  }
+}
+@media (max-width: 1199px) {
+  .inner-banner .font_sml:after {
+    width: 115px;
+    height: 115px;
+    right: -60px;
+  }
+}
+@media (max-width: 991px) {
+  .inner-banner .font_sml:after {
+    width: 75px;
+    height: 85px;
+    right: -45px;
+  }
+}
+@media (max-width: 767px) {
+  .inner-banner .font_sml::after {
+    width: 65px;
+    height: 65px;
+    right: -34px;
+    bottom: 0;
+  }
+}
