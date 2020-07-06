@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4aebeb8b463a18ab5a170b3537483c39",
+    "revision": "d147104c76fa91bb6508de1346f0c7d1",
     "url": "/magemonkeys/index.html"
   },
   {
-    "revision": "621df99a2f85cee33655",
-    "url": "/magemonkeys/static/css/main.85c23982.chunk.css"
+    "revision": "e20ee589674f0a665d14",
+    "url": "/magemonkeys/static/css/main.35817fd1.chunk.css"
   },
   {
-    "revision": "609efb653ea94986cc43",
-    "url": "/magemonkeys/static/js/2.1f2b0494.chunk.js"
+    "revision": "7a23fb0aebd514aad3b4",
+    "url": "/magemonkeys/static/js/2.9e08494c.chunk.js"
   },
   {
     "revision": "8bc88370bc2489d86f2f357f447ddb0b",
-    "url": "/magemonkeys/static/js/2.1f2b0494.chunk.js.LICENSE.txt"
+    "url": "/magemonkeys/static/js/2.9e08494c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "621df99a2f85cee33655",
-    "url": "/magemonkeys/static/js/main.24a76ef7.chunk.js"
+    "revision": "e20ee589674f0a665d14",
+    "url": "/magemonkeys/static/js/main.2943f653.chunk.js"
   },
   {
     "revision": "106768b314f1560607ce",
@@ -84,6 +84,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/magemonkeys/static/media/PlayfairDisplay-Regular.b3721ba3.ttf"
   },
   {
+    "revision": "7b04f7aef5a5a3fb942ca14160c5ae2b",
+    "url": "/magemonkeys/static/media/about-baner.7b04f7ae.jpg"
+  },
+  {
     "revision": "324ac1ee0ad2124a98f47a1a8c83b60d",
     "url": "/magemonkeys/static/media/action_orang_bg.324ac1ee.jpg"
   },
@@ -128,6 +132,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/magemonkeys/static/media/black-right.cb60d7a7.png"
   },
   {
+    "revision": "9e68c0d6c036418def3b2c2748c51881",
+    "url": "/magemonkeys/static/media/cg-back.9e68c0d6.png"
+  },
+  {
+    "revision": "78017584a8143e7286f084b6c23dd2ba",
+    "url": "/magemonkeys/static/media/cg-back1.78017584.png"
+  },
+  {
     "revision": "9eb642404e561daca388d8fe81e03ec6",
     "url": "/magemonkeys/static/media/contact-monkey.9eb64240.png"
   },
@@ -150,6 +162,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "27561f0cfa514f9dafe4a7fdb340b2b2",
     "url": "/magemonkeys/static/media/inner-banner.27561f0c.jpg"
+  },
+  {
+    "revision": "b386122da164f4521ce998cb96294a91",
+    "url": "/magemonkeys/static/media/isa-back1.b386122d.png"
+  },
+  {
+    "revision": "509859e6bef157dcf06e16a678afe77e",
+    "url": "/magemonkeys/static/media/isa-back2.509859e6.png"
   },
   {
     "revision": "1bb15893533aed1cea58abf0049c3c60",
@@ -182,6 +202,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "99775d14700f76e00f55bd3ad2503932",
     "url": "/magemonkeys/static/media/mma-left.99775d14.jpg"
+  },
+  {
+    "revision": "1283bf5948ad904b4f6633ac408efe31",
+    "url": "/magemonkeys/static/media/mmp-monkey-1.1283bf59.png"
   },
   {
     "revision": "e8a6ab5e7af5bafe236985953f8f086f",
