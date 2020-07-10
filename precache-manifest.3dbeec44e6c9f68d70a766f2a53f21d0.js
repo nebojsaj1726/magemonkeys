@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d147104c76fa91bb6508de1346f0c7d1",
+    "revision": "dd6943c00bec726c1b82ddaaf0208882",
     "url": "/magemonkeys/index.html"
   },
   {
-    "revision": "e20ee589674f0a665d14",
-    "url": "/magemonkeys/static/css/main.35817fd1.chunk.css"
+    "revision": "53c7d8fe6f1ff197aa90",
+    "url": "/magemonkeys/static/css/main.d98295e9.chunk.css"
   },
   {
-    "revision": "7a23fb0aebd514aad3b4",
-    "url": "/magemonkeys/static/js/2.9e08494c.chunk.js"
+    "revision": "10f645de082e6c7b5e26",
+    "url": "/magemonkeys/static/js/2.bb17fa78.chunk.js"
   },
   {
     "revision": "8bc88370bc2489d86f2f357f447ddb0b",
-    "url": "/magemonkeys/static/js/2.9e08494c.chunk.js.LICENSE.txt"
+    "url": "/magemonkeys/static/js/2.bb17fa78.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e20ee589674f0a665d14",
-    "url": "/magemonkeys/static/js/main.2943f653.chunk.js"
+    "revision": "53c7d8fe6f1ff197aa90",
+    "url": "/magemonkeys/static/js/main.3fb251ff.chunk.js"
   },
   {
     "revision": "106768b314f1560607ce",
@@ -154,6 +154,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3acae5b54199e029478ca7962340aefb",
     "url": "/magemonkeys/static/media/ext-monkey.3acae5b5.png"
+  },
+  {
+    "revision": "5267f47933dd07d533253b5cc437775d",
+    "url": "/magemonkeys/static/media/fur-back1.5267f479.png"
+  },
+  {
+    "revision": "9288e83915e1790135438ec49510bd31",
+    "url": "/magemonkeys/static/media/fur-back2.9288e839.png"
+  },
+  {
+    "revision": "6802a59e9f46f8d458efc1b053402b44",
+    "url": "/magemonkeys/static/media/gems-back1.6802a59e.png"
+  },
+  {
+    "revision": "4483430785ad61a75aeb50b7a323c987",
+    "url": "/magemonkeys/static/media/gems-back2.44834307.png"
+  },
+  {
+    "revision": "3ac2a3156f7fc1dc79c128b675d9080c",
+    "url": "/magemonkeys/static/media/hb-back1.3ac2a315.png"
+  },
+  {
+    "revision": "cb593ac119a769996fbf81af2aef1900",
+    "url": "/magemonkeys/static/media/hb-back2.cb593ac1.png"
   },
   {
     "revision": "39bd3a9a2adc657ebe9994ffbf80cef9",

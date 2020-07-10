@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/magemonkeys/static/css/main.35817fd1.chunk.css",
-    "main.js": "/magemonkeys/static/js/main.2943f653.chunk.js",
-    "main.js.map": "/magemonkeys/static/js/main.2943f653.chunk.js.map",
+    "main.css": "/magemonkeys/static/css/main.d98295e9.chunk.css",
+    "main.js": "/magemonkeys/static/js/main.3fb251ff.chunk.js",
+    "main.js.map": "/magemonkeys/static/js/main.3fb251ff.chunk.js.map",
     "runtime-main.js": "/magemonkeys/static/js/runtime-main.53aa2f02.js",
     "runtime-main.js.map": "/magemonkeys/static/js/runtime-main.53aa2f02.js.map",
-    "static/js/2.9e08494c.chunk.js": "/magemonkeys/static/js/2.9e08494c.chunk.js",
-    "static/js/2.9e08494c.chunk.js.map": "/magemonkeys/static/js/2.9e08494c.chunk.js.map",
+    "static/js/2.bb17fa78.chunk.js": "/magemonkeys/static/js/2.bb17fa78.chunk.js",
+    "static/js/2.bb17fa78.chunk.js.map": "/magemonkeys/static/js/2.bb17fa78.chunk.js.map",
     "index.html": "/magemonkeys/index.html",
-    "precache-manifest.9fc14ff8c6562ddcb20613e30ff089ce.js": "/magemonkeys/precache-manifest.9fc14ff8c6562ddcb20613e30ff089ce.js",
+    "precache-manifest.3dbeec44e6c9f68d70a766f2a53f21d0.js": "/magemonkeys/precache-manifest.3dbeec44e6c9f68d70a766f2a53f21d0.js",
     "service-worker.js": "/magemonkeys/service-worker.js",
-    "static/css/main.35817fd1.chunk.css.map": "/magemonkeys/static/css/main.35817fd1.chunk.css.map",
-    "static/js/2.9e08494c.chunk.js.LICENSE.txt": "/magemonkeys/static/js/2.9e08494c.chunk.js.LICENSE.txt",
+    "static/css/main.d98295e9.chunk.css.map": "/magemonkeys/static/css/main.d98295e9.chunk.css.map",
+    "static/js/2.bb17fa78.chunk.js.LICENSE.txt": "/magemonkeys/static/js/2.bb17fa78.chunk.js.LICENSE.txt",
     "static/media/App.css": "/magemonkeys/static/media/monkey1.c4531cc4.png",
     "static/media/about-baner.jpg": "/magemonkeys/static/media/about-baner.7b04f7ae.jpg",
     "static/media/action-take.css": "/magemonkeys/static/media/action_orang_bg.324ac1ee.jpg",
@@ -27,6 +27,12 @@
     "static/media/inner-banner-po.css": "/magemonkeys/static/media/d2c-monkey.a460410e.png",
     "static/media/inner-banner-ecom.css": "/magemonkeys/static/media/ecom-monkey.7dc600a6.png",
     "static/media/inner-banner-ext.css": "/magemonkeys/static/media/ext-monkey.3acae5b5.png",
+    "static/media/fur-back1.png": "/magemonkeys/static/media/fur-back1.5267f479.png",
+    "static/media/fur-back2.png": "/magemonkeys/static/media/fur-back2.9288e839.png",
+    "static/media/gems-back1.png": "/magemonkeys/static/media/gems-back1.6802a59e.png",
+    "static/media/gems-back2.png": "/magemonkeys/static/media/gems-back2.44834307.png",
+    "static/media/hb-back1.png": "/magemonkeys/static/media/hb-back1.3ac2a315.png",
+    "static/media/hb-back2.png": "/magemonkeys/static/media/hb-back2.cb593ac1.png",
     "static/media/home-banner.jpg": "/magemonkeys/static/media/home-banner.39bd3a9a.jpg",
     "static/media/inner-banner.jpg": "/magemonkeys/static/media/inner-banner.27561f0c.jpg",
     "static/media/isa-back1.png": "/magemonkeys/static/media/isa-back1.b386122d.png",
@@ -57,8 +63,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.53aa2f02.js",
-    "static/js/2.9e08494c.chunk.js",
-    "static/css/main.35817fd1.chunk.css",
-    "static/js/main.2943f653.chunk.js"
+    "static/js/2.bb17fa78.chunk.js",
+    "static/css/main.d98295e9.chunk.css",
+    "static/js/main.3fb251ff.chunk.js"
   ]
 }
