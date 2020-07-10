@@ -5,9 +5,12 @@
 .full_img_cont_wrap {
   position: relative;
 }
-.orng_bg_cont_sec.cg .sub-title {
+.orng_bg_cont_sec .sub-title {
   margin-bottom: 10px;
   font-size: 25px;
+}
+.orng_bg_cont_sec h3 {
+  margin-bottom: 10px;
 }
 .col-white,
 .col-white p,

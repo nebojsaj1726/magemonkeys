@@ -19,6 +19,9 @@ import WorkPage from "./pages/work-page";
 import HireDevelopersPage from "./pages/hire-developers-page";
 import ConsumerGoodsPage from "./pages/consumer-goods-page";
 import FashionAndApparelPage from "./pages/fashion-and-apparel-page";
+import FurnitureHomeDecorPage from "./pages/furniture-home-decor-page";
+import GemsJewelleryPage from "./pages/gems-jewellery-page";
+import HealthBeautyPage from "./pages/health-beauty-page";
 
 const App = () => {
   return (
@@ -47,6 +50,12 @@ const App = () => {
         <Route path="/hire-developers" component={HireDevelopersPage} />
         <Route path="/consumer-goods" component={ConsumerGoodsPage} />
         <Route path="/fashion-and-apparel" component={FashionAndApparelPage} />
+        <Route
+          path="/furniture-home-decor"
+          component={FurnitureHomeDecorPage}
+        />
+        <Route path="/gems-jewellery" component={GemsJewelleryPage} />
+        <Route path="/health-beauty" component={HealthBeautyPage} />
       </Switch>
     </div>
   );

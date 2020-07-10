@@ -1,0 +1,28 @@
+.inner-banner .furn-bnr.font_sml::after {
+  bottom: 41px;
+  right: -92px;
+}
+@media (max-width: 1499px) {
+  .inner-banner .furn-bnr.font_sml::after {
+    bottom: 27px;
+    right: -74px;
+  }
+}
+@media (max-width: 1199px) {
+  .inner-banner .furn-bnr.font_sml::after {
+    bottom: 27px;
+    right: -54px;
+  }
+}
+@media (max-width: 991px) {
+  .inner-banner .furn-bnr.font_sml::after {
+    bottom: 27px;
+    right: -40px;
+  }
+}
+@media (max-width: 767px) {
+  .inner-banner .furn-bnr.font_sml::after {
+    bottom: 7px;
+    right: -33px;
+  }
+}

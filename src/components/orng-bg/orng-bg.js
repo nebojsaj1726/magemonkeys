@@ -1,9 +1,8 @@
 import React from "react";
 
 import "./orng-bg.css";
-import magentoplatimg from "../../images/magento_plat_img.png";
 
-const OrngBg = () => (
+const OrngBg = ({ image }) => (
   <div className="orng_bg_cont_sec full_img_cont_wrap">
     <div className="container-fluid">
       <div className="row">
@@ -22,7 +21,7 @@ const OrngBg = () => (
               <h3 className="heading font_48">
                 Magento – Not just a platform, but a tool for eCommerce success
               </h3>
-              <p>
+              <p className="sub-title">
                 Create an all-round web and digital experience for your business
               </p>
             </div>
@@ -54,7 +53,7 @@ const OrngBg = () => (
         >
           <div className="img_grid">
             <img
-              src={magentoplatimg}
+              src={image}
               alt=""
               className=" hideme wow animated  fadeIn animated"
               data-wow-duration="2s"
