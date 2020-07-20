@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd6943c00bec726c1b82ddaaf0208882",
+    "revision": "92184eda01a2abee57152104e39a4d29",
     "url": "/magemonkeys/index.html"
   },
   {
-    "revision": "53c7d8fe6f1ff197aa90",
-    "url": "/magemonkeys/static/css/main.d98295e9.chunk.css"
+    "revision": "b9f4847303f7b24430ad",
+    "url": "/magemonkeys/static/css/main.1293a6e1.chunk.css"
   },
   {
-    "revision": "10f645de082e6c7b5e26",
-    "url": "/magemonkeys/static/js/2.bb17fa78.chunk.js"
+    "revision": "671721f82032b4fcb6fe",
+    "url": "/magemonkeys/static/js/2.94b7e130.chunk.js"
   },
   {
     "revision": "8bc88370bc2489d86f2f357f447ddb0b",
-    "url": "/magemonkeys/static/js/2.bb17fa78.chunk.js.LICENSE.txt"
+    "url": "/magemonkeys/static/js/2.94b7e130.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "53c7d8fe6f1ff197aa90",
-    "url": "/magemonkeys/static/js/main.3fb251ff.chunk.js"
+    "revision": "b9f4847303f7b24430ad",
+    "url": "/magemonkeys/static/js/main.08d7e42e.chunk.js"
   },
   {
     "revision": "106768b314f1560607ce",
@@ -132,6 +132,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/magemonkeys/static/media/black-right.cb60d7a7.png"
   },
   {
+    "revision": "bd4cc2bbd8de3349b4b11c4639a84f05",
+    "url": "/magemonkeys/static/media/blog-prsn.bd4cc2bb.png"
+  },
+  {
+    "revision": "e11c742440a5f185c36c82aa46dcf143",
+    "url": "/magemonkeys/static/media/blog1.e11c7424.png"
+  },
+  {
+    "revision": "9293c201c2fc0ae8f2739c7fb4d4e6b3",
+    "url": "/magemonkeys/static/media/blog2.9293c201.png"
+  },
+  {
+    "revision": "20789fa4dcb16ad585f7e96a1b106b63",
+    "url": "/magemonkeys/static/media/blog3.20789fa4.png"
+  },
+  {
     "revision": "9e68c0d6c036418def3b2c2748c51881",
     "url": "/magemonkeys/static/media/cg-back.9e68c0d6.png"
   },
@@ -242,6 +258,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1064f6c0574a8e4221b29edff13a1309",
     "url": "/magemonkeys/static/media/orange_bg.1064f6c0.jpg"
+  },
+  {
+    "revision": "11241d5432a10e926d9c8f8cbf42229c",
+    "url": "/magemonkeys/static/media/prsn.11241d54.png"
   },
   {
     "revision": "b3ca029a5994284240741f597fe0eabc",
