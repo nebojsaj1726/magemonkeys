@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import WOW from "wowjs";
+import { Helmet } from "react-helmet";
 
 import Header from "../components/header/header";
 import InnerBannerFhd from "../components/inner-banner-fhd/inner-banner-fhd";
@@ -19,6 +20,15 @@ class FurnitureHomeDecorPage extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>
+            Furniture - Home &amp; Decor E-Commerce Development Solutions
+          </title>
+          <link
+            rel="canonical"
+            href="https://www.magemonkeys.com/furniture-home-decor-magento-ecommerce-solution/"
+          ></link>
+        </Helmet>
         <Header />
         <InnerBannerFhd />
         <FhdInfo />

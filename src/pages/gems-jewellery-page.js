@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import WOW from "wowjs";
+import { Helmet } from "react-helmet";
 
 import Header from "../components/header/header";
 import InnerBannerGems from "../components/inner-banner-gems/inner-banner-gems";
@@ -19,6 +20,13 @@ class GemsJewelleryPage extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>GEMS &amp; JEWELRY E-COMMERCE DEVELOPMENT SOLUTIONS</title>
+          <link
+            rel="canonical"
+            href="https://www.magemonkeys.com/gems-jewelry-magento-ecommerce-solution/"
+          ></link>
+        </Helmet>
         <Header />
         <InnerBannerGems />
         <GemsInfo />

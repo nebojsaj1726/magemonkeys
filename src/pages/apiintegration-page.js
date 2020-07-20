@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import WOW from "wowjs";
+import { Helmet } from "react-helmet";
 
 import Header from "../components/header/header";
 import InnerBannerApi from "../components/inner-banner-api/inner-banner-api";
@@ -16,6 +17,19 @@ class ApiintegrationPage extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>
+            Magento API Integration Services | Magento Rest API Developer India
+          </title>
+          <meta
+            name="description"
+            content="Magento Monkeys expertise in Magento API integration services and solutions. Our Magento certified developers are experience with Magento rest API integration and development services."
+          ></meta>
+          <link
+            rel="canonical"
+            href="https://www.magemonkeys.com/magento-rest-api-integration/"
+          ></link>
+        </Helmet>
         <Header />
         <InnerBannerApi />
         <ApiRowApi />

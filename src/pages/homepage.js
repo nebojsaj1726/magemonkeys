@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import WOW from "wowjs";
+import { Helmet } from "react-helmet";
 
 import Header from "../components/header/header";
 import HomeBanner from "../components/home-banner/home-banner";
@@ -18,6 +19,17 @@ class HomePage extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>
+            Magento Development Company India | Magento eCommerce Development
+            India
+          </title>
+          <meta
+            name="description"
+            content="Magento Monkeys is leading Magento eCommerce development company from India. We offers various ranges of Magento related services and solution. With Magento certified team of developers, we have 15+ years of experience in the market."
+          ></meta>
+          <link rel="canonical" href="https://www.magemonkeys.com/"></link>
+        </Helmet>
         <Header />
         <HomeBanner />
         <ServiceMain />

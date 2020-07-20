@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import WOW from "wowjs";
+import { Helmet } from "react-helmet";
 
 import Header from "../components/header/header";
 import InnerBannerPo from "../components/inner-banner-po/inner-banner-po";
@@ -19,6 +20,17 @@ class PerformanceOptimizationPage extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>Magento Perfomance Optimization Service &amp; Solution</title>
+          <meta
+            name="description"
+            content="Magento Perfomance Optimization Service - Magemonkey is a trusted brand to get magento perfomance optimization service. Our auditing helps you to optimize your store which will outcome a better sales graph."
+          ></meta>
+          <link
+            rel="canonical"
+            href="https://www.magemonkeys.com/magento-performance-optimization-service/"
+          ></link>
+        </Helmet>
         <Header />
         <InnerBannerPo />
         <ApiRowPo />

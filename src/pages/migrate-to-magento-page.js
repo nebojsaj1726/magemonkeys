@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import WOW from "wowjs";
+import { Helmet } from "react-helmet";
 
 import Header from "../components/header/header";
 import InnerBannerM2m from "../components/inner-banner-m2m/inner-banner-m2m";
@@ -17,6 +18,19 @@ class MigrateToMagentoPage extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>
+            Migrate to Magento - Shopify, woocommerce, opencart, Bigcommerce etc
+          </title>
+          <meta
+            name="description"
+            content="Want to Migrate your ecommerce store to Magento? Visit Mage monkeys. Our team of expert helps you to Migrate your store from Shopify, woocommerce, opencart, Bigcommerce etc to Magento."
+          ></meta>
+          <link
+            rel="canonical"
+            href="https://www.magemonkeys.com/migrate-ecommerce-store-website-magento/"
+          ></link>
+        </Helmet>
         <Header />
         <InnerBannerM2m />
         <MegntoTechSec />

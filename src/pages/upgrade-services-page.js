@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import WOW from "wowjs";
+import { Helmet } from "react-helmet";
 
 import Header from "../components/header/header";
 import UpgradeBanner from "../components/upgrade-banner/upgrade-banner";
@@ -19,6 +20,13 @@ class UpgradeServicesPage extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>Magento Upgrade Service | Magento 2 Migration Services</title>
+          <meta
+            name="description"
+            content="Get FREE Magento upgrade service quote. Upgrade your Magento store from 1.X to 2.X (latest version). Our Magento 2 migration service is fully secured &amp; guaranteed."
+          ></meta>
+        </Helmet>
         <Header />
         <UpgradeBanner />
         <ServicesInfo />

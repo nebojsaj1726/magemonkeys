@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import WOW from "wowjs";
+import { Helmet } from "react-helmet";
 
 import Header from "../components/header/header";
 import InnerBannerPack from "../components/inner-banner-pack/inner-banner-pack";
@@ -18,6 +19,17 @@ class PackagesPage extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>Magento eCommerce support | Magento website support</title>
+          <meta
+            name="description"
+            content="Looking for a Magento team to support? Magemonkeys offers Magento developers who technically supports you with your Magento needs."
+          ></meta>
+          <link
+            rel="canonical"
+            href="https://www.magemonkeys.com/magento-support/"
+          ></link>
+        </Helmet>
         <Header />
         <InnerBannerPack />
         <AboutInfo />

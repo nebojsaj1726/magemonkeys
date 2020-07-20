@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import WOW from "wowjs";
+import { Helmet } from "react-helmet";
 
 import Header from "../components/header/header";
 import InnerBannerHb from "../components/inner-banner-hb/inner-banner-hb";
@@ -19,6 +20,13 @@ class HealthBeautyPage extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>HEALTH &amp; BEAUTY E-COMMERCE DEVELOPMENT SOLUTIONS</title>
+          <link
+            rel="canonical"
+            href="https://www.magemonkeys.com/health-beauty-magento-ecommerce-solution/"
+          ></link>
+        </Helmet>
         <Header />
         <InnerBannerHb />
         <HbInfo />
