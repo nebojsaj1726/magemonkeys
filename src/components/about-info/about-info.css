@@ -1,0 +1,43 @@
+.about-info-inr .s-tite {
+  font-size: 30px;
+  font-family: "Conv_PlayfairDisplay-Regular";
+  letter-spacing: 0.02em;
+  max-width: 78%;
+  margin: 70px auto 30px;
+}
+.about-info h2 {
+  padding: 0 10%;
+  margin-bottom: 40px;
+}
+@media (max-width: 1499px) {
+  .about-info-inr .s-tite {
+    max-width: 94%;
+    margin: 60px auto 20px;
+    font-size: 26px;
+  }
+}
+@media (max-width: 1199px) {
+  .about-info-inr .s-tite {
+    max-width: 93%;
+    margin: 40px auto 20px;
+    font-size: 23px;
+    line-height: 28px;
+  }
+}
+@media (max-width: 991px) {
+  .about-info h2 {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .about-info-inr .s-tite {
+    max-width: 98%;
+    margin: 30px auto 0px;
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .info_heading {
+    font-size: 19px;
+  }
+}

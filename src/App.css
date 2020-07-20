@@ -293,7 +293,7 @@ h6 {
 .orange-title-small,
 .black-title-small {
   font-size: 30px;
-  line-height: 31px;
+  line-height: 40px;
 }
 
 /*.black-title{ font-size: 60px; color: #000; line-height: 60px;font-family: 'Conv_AvenirLTStd-Black';  margin-bottom: 20px; position: relative; width: 100%}*/
@@ -400,7 +400,7 @@ p {
 
 @media (max-width: 1499px) {
   .container {
-    max-width: 1130px;
+    max-width: 1060px;
   }
   h2 {
     font-size: 45px;

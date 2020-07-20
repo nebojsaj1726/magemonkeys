@@ -24,6 +24,9 @@
 .rec-arrow {
   display: none;
 }
+.rec-carousel {
+  height: 200px !important;
+}
 .testi_section .author_name {
   font-size: 30px;
   line-height: 1.2;
@@ -41,6 +44,9 @@
     font-size: 68px;
     top: 72px;
     left: -14px;
+  }
+  .testi-c {
+    max-width: 1130px;
   }
   .testi_section .heading {
     font-size: 40px;
@@ -63,6 +69,9 @@
   .testi_section .heading {
     font-size: 34px;
   }
+  .testi-c {
+    max-width: 90%;
+  }
 }
 
 @media (max-width: 991px) {
@@ -77,11 +86,13 @@
 
 @media (max-width: 767px) {
   .testi_section .heading {
+    font-size: 23px;
     line-height: 1.2;
+    margin-bottom: 58px;
   }
   .testi_section .header-section:before {
     left: -35px;
-    top: 105px;
+    top: 85px;
   }
   .testi_section p {
     font-size: 15px;

@@ -1,6 +1,7 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import "./App.css";
+import { Helmet } from "react-helmet";
 
 import HomePage from "./pages/homepage";
 import ContactPage from "./pages/contact-page";
@@ -22,10 +23,29 @@ import FashionAndApparelPage from "./pages/fashion-and-apparel-page";
 import FurnitureHomeDecorPage from "./pages/furniture-home-decor-page";
 import GemsJewelleryPage from "./pages/gems-jewellery-page";
 import HealthBeautyPage from "./pages/health-beauty-page";
+import PackagesPage from "./pages/packages-page";
+import BlogPage from "./pages/blog-page";
+import BlogDetailPage from "./pages/blog-detail-page";
 
 const App = () => {
   return (
     <div>
+      <Helmet>
+        <meta charset="UTF-8" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=1"
+        />
+        <title>
+          Magento Development Company India | Magento eCommerce Development
+          India
+        </title>
+        <meta
+          name="description"
+          content="Magento Monkeys is leading Magento eCommerce development company from India. We offers various ranges of Magento related services and solution. With Magento certified team of developers, we have 15+ years of experience in the market."
+        ></meta>
+        <link rel="canonical" href="https://www.magemonkeys.com/"></link>
+      </Helmet>
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/contact" component={ContactPage} />
@@ -56,6 +76,9 @@ const App = () => {
         />
         <Route path="/gems-jewellery" component={GemsJewelleryPage} />
         <Route path="/health-beauty" component={HealthBeautyPage} />
+        <Route path="/packages" component={PackagesPage} />
+        <Route path="/blog" component={BlogPage} />
+        <Route path="/blog-detail" component={BlogDetailPage} />
       </Switch>
     </div>
   );

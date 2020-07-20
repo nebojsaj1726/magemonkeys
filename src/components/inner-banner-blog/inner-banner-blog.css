@@ -1,0 +1,43 @@
+.inner-banner .font_sml.blog::after {
+  background: url(../../images/upgrade_monkey.png);
+  width: 130px;
+  height: 130px;
+  bottom: 17px;
+  right: -46px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center;
+}
+
+@media (max-width: 1499px) {
+  .inner-banner .font_sml.blog::after {
+    width: 80px;
+    height: 80px;
+    bottom: 19px;
+    right: -25px;
+  }
+}
+@media (max-width: 1199px) {
+  .inner-banner .font_sml.blog::after {
+    width: 70px;
+    height: 70px;
+    bottom: 10px;
+    right: -27px;
+  }
+}
+@media (max-width: 991px) {
+  .inner-banner .font_sml.blog::after {
+    width: 50px;
+    height: 50px;
+    bottom: 14px;
+    right: -15px;
+  }
+}
+@media (max-width: 767px) {
+  .inner-banner .font_sml.blog::after {
+    width: 30px;
+    height: 30px;
+    bottom: 0px;
+    right: -12px;
+  }
+}

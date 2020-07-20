@@ -1,0 +1,34 @@
+.prev-next {
+  display: flex;
+  margin: auto;
+}
+.prev-next a {
+  font-family: "Conv_Avenir Heavy";
+}
+.prev-next {
+  display: flex;
+  margin: auto;
+}
+.prev-next-main {
+  padding-top: 0 !important;
+}
+.prev {
+  text-align: right;
+  padding: 0 20px;
+}
+.next {
+  padding: 0 20px;
+}
+.prev p,
+.next p {
+  color: #a3a3a3;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+@media (max-width: 767px) {
+  .next,
+  .prev {
+    padding: 0 10px;
+  }
+}

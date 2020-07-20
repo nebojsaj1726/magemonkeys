@@ -313,12 +313,12 @@
   padding: 0 10px;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1499px) {
   .main_menu > ul > li > a,
   .dropbtn {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 30px;
-    padding: 5px 15px;
+    padding: 3px 13px;
   }
   .dropdown-content a span {
     padding-top: 9px;
@@ -359,6 +359,9 @@
   }
   #sideMenu .mobile {
     display: block;
+  }
+  .logowrap {
+    width: 100px;
   }
 }
 

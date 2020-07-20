@@ -6,9 +6,6 @@
 }
 .black-back-img p {
   color: #ffffff;
-  max-width: 1140px;
-  float: none;
-  letter-spacing: 1px;
 }
 .black-back-img::before {
   content: "";

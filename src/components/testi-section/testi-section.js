@@ -6,7 +6,7 @@ import "./testi-section.css";
 const TestiSection = () => {
   return (
     <div className="testi_section">
-      <div className="container">
+      <div className="container testi-c">
         <div className="row">
           <div className="col-md-12 col-lg-2 col-sm-12"></div>
           <div
@@ -20,7 +20,7 @@ const TestiSection = () => {
             </div>
 
             <div className="testi_slider">
-              <Carousel itemsToShow={1} style={{ height: "225px" }}>
+              <Carousel itemsToShow={1}>
                 <div className="testi_slide">
                   <p>
                     Mage Monkeys has been a great partner in revamping our
