@@ -20,7 +20,7 @@
   border: 1px solid #b8b8b8;
   border-radius: 50px;
 }
-.pack-inr .pall.orange {
+.pack-inr .pall:hover {
   background: #f26322;
   color: #ffffff;
   border-color: #f26322;
@@ -66,13 +66,9 @@
   right: 0;
   margin: auto;
 }
-.pack-inr .pall.orange .btn.btn-default.orange-btn {
+.pack-inr .pall .btn.btn-default.orange-btn:hover {
   background: #fff;
   color: #f26322;
-}
-.pack-inr .pall.orange .btn.btn-default.orange-btn:hover {
-  background: #000;
-  color: #fff;
 }
 
 @media (max-width: 1499px) {

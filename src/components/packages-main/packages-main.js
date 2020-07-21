@@ -35,7 +35,7 @@ const PackagesMain = () => (
             </button>
           </div>
 
-          <div className="pall orange">
+          <div className="pall">
             <div className="recomended">Recommended</div>
             <div className="hours">
               <span>80</span>hrs/month
