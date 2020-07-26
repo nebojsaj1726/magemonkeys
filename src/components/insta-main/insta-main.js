@@ -3,7 +3,7 @@ import axios from "axios";
 
 import "./insta-main.css";
 
-export class InstaMain extends Component {
+class InstaMain extends Component {
   state = {
     img1Url: "",
     img2Url: "",
