@@ -61,7 +61,7 @@ const App = () => {
         <Route path="/health-beauty" component={HealthBeautyPage} />
         <Route path="/packages" component={PackagesPage} />
         <Route path="/blog" component={BlogPage} />
-        <Route path="/blog-detail" component={BlogDetailPage} />
+        <Route path="/blog-detail/:id" component={BlogDetailPage} />
       </Switch>
     </div>
   );

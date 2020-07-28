@@ -62,7 +62,7 @@ const LetsStartMain = () => (
                 <input
                   type="name"
                   className="form-control"
-                  id="email"
+                  id="name"
                   placeholder=" "
                 />
               </div>
