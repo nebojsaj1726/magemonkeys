@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fee8235798facb584cc2a14066b4e31b",
+    "revision": "28660a3ca833976df08731c2407fe4cd",
     "url": "/magemonkeys/index.html"
   },
   {
-    "revision": "4f306ca6a44de9774d55",
-    "url": "/magemonkeys/static/css/main.0a5b080c.chunk.css"
+    "revision": "deebb64edb71b79f4fad",
+    "url": "/magemonkeys/static/css/main.a6386f7e.chunk.css"
   },
   {
-    "revision": "683ac66202c1d293ba99",
-    "url": "/magemonkeys/static/js/2.b9251417.chunk.js"
+    "revision": "1d173d79512b47fb13a5",
+    "url": "/magemonkeys/static/js/2.d30a7939.chunk.js"
   },
   {
     "revision": "8bc88370bc2489d86f2f357f447ddb0b",
-    "url": "/magemonkeys/static/js/2.b9251417.chunk.js.LICENSE.txt"
+    "url": "/magemonkeys/static/js/2.d30a7939.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4f306ca6a44de9774d55",
-    "url": "/magemonkeys/static/js/main.dbdc39f9.chunk.js"
+    "revision": "deebb64edb71b79f4fad",
+    "url": "/magemonkeys/static/js/main.682968e0.chunk.js"
   },
   {
     "revision": "106768b314f1560607ce",
@@ -138,14 +138,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e11c742440a5f185c36c82aa46dcf143",
     "url": "/magemonkeys/static/media/blog1.e11c7424.png"
-  },
-  {
-    "revision": "9293c201c2fc0ae8f2739c7fb4d4e6b3",
-    "url": "/magemonkeys/static/media/blog2.9293c201.png"
-  },
-  {
-    "revision": "20789fa4dcb16ad585f7e96a1b106b63",
-    "url": "/magemonkeys/static/media/blog3.20789fa4.png"
   },
   {
     "revision": "9e68c0d6c036418def3b2c2748c51881",

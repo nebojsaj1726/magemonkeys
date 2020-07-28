@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/magemonkeys/static/css/main.0a5b080c.chunk.css",
-    "main.js": "/magemonkeys/static/js/main.dbdc39f9.chunk.js",
-    "main.js.map": "/magemonkeys/static/js/main.dbdc39f9.chunk.js.map",
+    "main.css": "/magemonkeys/static/css/main.a6386f7e.chunk.css",
+    "main.js": "/magemonkeys/static/js/main.682968e0.chunk.js",
+    "main.js.map": "/magemonkeys/static/js/main.682968e0.chunk.js.map",
     "runtime-main.js": "/magemonkeys/static/js/runtime-main.53aa2f02.js",
     "runtime-main.js.map": "/magemonkeys/static/js/runtime-main.53aa2f02.js.map",
-    "static/js/2.b9251417.chunk.js": "/magemonkeys/static/js/2.b9251417.chunk.js",
-    "static/js/2.b9251417.chunk.js.map": "/magemonkeys/static/js/2.b9251417.chunk.js.map",
+    "static/js/2.d30a7939.chunk.js": "/magemonkeys/static/js/2.d30a7939.chunk.js",
+    "static/js/2.d30a7939.chunk.js.map": "/magemonkeys/static/js/2.d30a7939.chunk.js.map",
     "index.html": "/magemonkeys/index.html",
-    "precache-manifest.105d74b587d80ed1959b6df26ff0822d.js": "/magemonkeys/precache-manifest.105d74b587d80ed1959b6df26ff0822d.js",
+    "precache-manifest.22a1b9beb4092163335072b85dddb881.js": "/magemonkeys/precache-manifest.22a1b9beb4092163335072b85dddb881.js",
     "service-worker.js": "/magemonkeys/service-worker.js",
-    "static/css/main.0a5b080c.chunk.css.map": "/magemonkeys/static/css/main.0a5b080c.chunk.css.map",
-    "static/js/2.b9251417.chunk.js.LICENSE.txt": "/magemonkeys/static/js/2.b9251417.chunk.js.LICENSE.txt",
+    "static/css/main.a6386f7e.chunk.css.map": "/magemonkeys/static/css/main.a6386f7e.chunk.css.map",
+    "static/js/2.d30a7939.chunk.js.LICENSE.txt": "/magemonkeys/static/js/2.d30a7939.chunk.js.LICENSE.txt",
     "static/media/App.css": "/magemonkeys/static/media/monkey1.c4531cc4.png",
     "static/media/about-baner.jpg": "/magemonkeys/static/media/about-baner.7b04f7ae.jpg",
     "static/media/action-take.css": "/magemonkeys/static/media/action_orang_bg.324ac1ee.jpg",
@@ -23,8 +23,6 @@
     "static/media/black-right.png": "/magemonkeys/static/media/black-right.cb60d7a7.png",
     "static/media/blog-prsn.png": "/magemonkeys/static/media/blog-prsn.bd4cc2bb.png",
     "static/media/blog1.png": "/magemonkeys/static/media/blog1.e11c7424.png",
-    "static/media/blog2.png": "/magemonkeys/static/media/blog2.9293c201.png",
-    "static/media/blog3.png": "/magemonkeys/static/media/blog3.20789fa4.png",
     "static/media/cg-back.png": "/magemonkeys/static/media/cg-back.9e68c0d6.png",
     "static/media/cg-back1.png": "/magemonkeys/static/media/cg-back1.78017584.png",
     "static/media/inner-banner-hd.css": "/magemonkeys/static/media/contact-monkey.9eb64240.png",
@@ -68,8 +66,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.53aa2f02.js",
-    "static/js/2.b9251417.chunk.js",
-    "static/css/main.0a5b080c.chunk.css",
-    "static/js/main.dbdc39f9.chunk.js"
+    "static/js/2.d30a7939.chunk.js",
+    "static/css/main.a6386f7e.chunk.css",
+    "static/js/main.682968e0.chunk.js"
   ]
 }
