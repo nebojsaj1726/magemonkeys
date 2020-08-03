@@ -67,6 +67,7 @@
 .loading {
   text-align: center;
   font-size: 18px;
+  margin: 30px 0;
 }
 
 @media (max-width: 1499px) {

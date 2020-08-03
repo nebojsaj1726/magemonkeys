@@ -30,37 +30,37 @@ class Header extends Component {
                   <button className="dropbtn">Magento Development</button>
 
                   <div className="dropdown-content">
-                    <Link to="/b2b">
+                    <Link to="/magento-enterprise-b2b-solution">
                       <span>
                         <i className="far fa-arrow-right"></i>
                       </span>{" "}
                       B2B Solution
                     </Link>
-                    <Link to="/extension-development">
+                    <Link to="/magento-extension-development">
                       <span>
                         <i className="far fa-arrow-right"></i>
                       </span>{" "}
                       Extension Development
                     </Link>
-                    <Link to="/ecommerce">
+                    <Link to="/ecommerce-store-development-service">
                       <span>
                         <i className="far fa-arrow-right"></i>
                       </span>{" "}
                       E-Commerce
                     </Link>
-                    <Link to="/migrate-to-magento">
+                    <Link to="/migrate-ecommerce-store-website-magento">
                       <span>
                         <i className="far fa-arrow-right"></i>
                       </span>{" "}
                       Migrate to Magento
                     </Link>
-                    <Link to="/mobile-app">
+                    <Link to="/magento-mobile-app-development">
                       <span>
                         <i className="far fa-arrow-right"></i>
                       </span>{" "}
                       Magento Mobile App
                     </Link>
-                    <Link to="/mmplace">
+                    <Link to="/magento-marketplace">
                       <span>
                         <i className="far fa-arrow-right"></i>
                       </span>{" "}
@@ -79,25 +79,25 @@ class Header extends Component {
                       </span>{" "}
                       Upgrade Services
                     </Link>
-                    <Link to="/down2com">
+                    <Link to="/downgrading-magento-enterprise-to-community-edition">
                       <span>
                         <i className="far fa-arrow-right"></i>
                       </span>{" "}
                       Downgrade to Community
                     </Link>
-                    <Link to="/api-integration">
+                    <Link to="/magento-rest-api-integration">
                       <span>
                         <i className="far fa-arrow-right"></i>
                       </span>{" "}
                       API Integration
                     </Link>
-                    <Link to="/performance-optimization">
+                    <Link to="/magento-performance-optimization-service">
                       <span>
                         <i className="far fa-arrow-right"></i>
                       </span>{" "}
                       Performance Optimization
                     </Link>
-                    <Link to="/is-automotive">
+                    <Link to="/automotive-magento-ecommerce-solution">
                       <span>
                         <i className="far fa-arrow-right"></i>
                       </span>{" "}

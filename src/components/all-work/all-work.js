@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./all-work.css";
 import w1 from "../../images/w1.jpg";
@@ -49,10 +50,13 @@ const AllWork = () => (
               House Of Hackney approached us to develop ecommerce portal that
               facilitate them to make a reach of their product globally.
             </p>
-            <a href="/#" className="orange-btn">
+            <Link
+              to="/interior-fashion-lifestyle-ecommerce-store-development-house-of-hackney"
+              className="orange-btn"
+            >
               View Project
               <img src={rightaerow} alt="" />
-            </a>
+            </Link>
           </div>
         </div>
         <div className="col-lg-5 col-md-12 col-sm-12">

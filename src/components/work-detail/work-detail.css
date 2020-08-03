@@ -1,0 +1,33 @@
+.work-detail p {
+  width: 75%;
+  margin: auto auto 10px auto;
+}
+.work-detail h3 {
+  margin-bottom: 50px;
+  margin-top: 110px;
+}
+.work-detail.row-am {
+  padding-bottom: 0;
+}
+.orange {
+  color: #ff7232;
+}
+
+@media (max-width: 1499px) {
+  .work-detail p {
+    width: 86%;
+    margin: auto auto 10px auto;
+  }
+  .work-detail h3 {
+    margin-top: 70px;
+  }
+}
+@media (max-width: 1199px) {
+  .work-detail p {
+    margin: auto auto 10px auto;
+  }
+  .work-detail h3 {
+    margin-bottom: 40px;
+    margin-top: 50px;
+  }
+}

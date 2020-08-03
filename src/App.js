@@ -24,7 +24,17 @@ import GemsJewelleryPage from "./pages/gems-jewellery-page";
 import HealthBeautyPage from "./pages/health-beauty-page";
 import PackagesPage from "./pages/packages-page";
 import BlogPage from "./pages/blog-page";
-import BlogDetailPage from "./pages/blog-detail-page";
+import Blog1Page from "./pages/blog-pages/blog1-page";
+import Blog2Page from "./pages/blog-pages/blog2-page";
+import Blog3Page from "./pages/blog-pages/blog3-page";
+import Blog4Page from "./pages/blog-pages/blog4-page";
+import Blog5Page from "./pages/blog-pages/blog5-page";
+import Blog6Page from "./pages/blog-pages/blog6-page";
+import Blog7Page from "./pages/blog-pages/blog7-page";
+import Blog8Page from "./pages/blog-pages/blog8-page";
+import Blog9Page from "./pages/blog-pages/blog9-page";
+import Blog10Page from "./pages/blog-pages/blog10-page";
+import WorkDetailPage from "./pages/work-detail-page";
 
 const App = () => {
   return (
@@ -32,36 +42,109 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/contact" component={ContactPage} />
-        <Route path="/b2b" component={B2BPage} />
+        <Route path="/magento-enterprise-b2b-solution" component={B2BPage} />
         <Route
-          path="/extension-development"
+          path="/magento-extension-development"
           component={ExtensionDevelopmentPage}
         />
-        <Route path="/ecommerce" component={EcommercePage} />
-        <Route path="/down2com" component={Down2comPage} />
-        <Route path="/api-integration" component={ApiintegrationPage} />
-        <Route path="/is-automotive" component={IsAutomotivePage} />
-        <Route path="/mmplace" component={MagentoMarketPlacePage} />
-        <Route path="/mobile-app" component={MobileAppPage} />
-        <Route path="/migrate-to-magento" component={MigrateToMagentoPage} />
         <Route
-          path="/performance-optimization"
+          path="/ecommerce-store-development-service"
+          component={EcommercePage}
+        />
+        <Route
+          path="/downgrading-magento-enterprise-to-community-edition"
+          component={Down2comPage}
+        />
+        <Route
+          path="/magento-rest-api-integration"
+          component={ApiintegrationPage}
+        />
+        <Route
+          path="/automotive-magento-ecommerce-solution"
+          component={IsAutomotivePage}
+        />
+        <Route path="/magento-marketplace" component={MagentoMarketPlacePage} />
+        <Route
+          path="/magento-mobile-app-development"
+          component={MobileAppPage}
+        />
+        <Route
+          path="/migrate-ecommerce-store-website-magento"
+          component={MigrateToMagentoPage}
+        />
+        <Route
+          path="/magento-performance-optimization-service"
           component={PerformanceOptimizationPage}
         />
         <Route path="/upgrade-services" component={UpgradeServicesPage} />
         <Route path="/work" component={WorkPage} />
-        <Route path="/hire-developers" component={HireDevelopersPage} />
-        <Route path="/consumer-goods" component={ConsumerGoodsPage} />
-        <Route path="/fashion-and-apparel" component={FashionAndApparelPage} />
+        <Route path="/hire-magento-developer" component={HireDevelopersPage} />
         <Route
-          path="/furniture-home-decor"
+          path="/consumer-goods-e-commerce-development-solutions"
+          component={ConsumerGoodsPage}
+        />
+        <Route
+          path="/fashion-apparel-magento-ecommerce-solution"
+          component={FashionAndApparelPage}
+        />
+        <Route
+          path="/furniture-home-decor-magento-ecommerce-solution"
           component={FurnitureHomeDecorPage}
         />
-        <Route path="/gems-jewellery" component={GemsJewelleryPage} />
-        <Route path="/health-beauty" component={HealthBeautyPage} />
-        <Route path="/packages" component={PackagesPage} />
+        <Route
+          path="/gems-jewelry-magento-ecommerce-solution"
+          component={GemsJewelleryPage}
+        />
+        <Route
+          path="/health-beauty-magento-ecommerce-solution"
+          component={HealthBeautyPage}
+        />
+        <Route path="/magento-support" component={PackagesPage} />
         <Route path="/blog" component={BlogPage} />
-        <Route path="/blog-detail/:id" component={BlogDetailPage} />
+        <Route
+          path="/how-to-create-custom-link-for-my-account-section-in-magento-2"
+          component={Blog1Page}
+        />
+        <Route
+          path="/how-to-get-category-count-in-magento-2"
+          component={Blog2Page}
+        />
+        <Route
+          path="/magento2-display-new-label-of-product-in-product-list-page"
+          component={Blog3Page}
+        />
+        <Route
+          path="/what-to-do-when-magento-2-3-1-created-invoices-miss-items"
+          component={Blog4Page}
+        />
+        <Route
+          path="/how-to-add-new-button-on-sales-order-view-page-in-admin-side"
+          component={Blog5Page}
+        />
+        <Route
+          path="/in-magento-2-how-to-set-custom-price-for-products-in-cart"
+          component={Blog6Page}
+        />
+        <Route
+          path="/magento-2-how-to-show-full-breadcrumbs-path-in-product-view-page"
+          component={Blog7Page}
+        />
+        <Route
+          path="/send-unique-coupon-code-on-every-new-subscriber"
+          component={Blog8Page}
+        />
+        <Route
+          path="/how-to-upgrade-magento-2-using-command-line"
+          component={Blog9Page}
+        />
+        <Route
+          path="/magento-bundle-product-price-shows-different-on-list-page-and-product-page"
+          component={Blog10Page}
+        />
+        <Route
+          path="/interior-fashion-lifestyle-ecommerce-store-development-house-of-hackney"
+          component={WorkDetailPage}
+        />
       </Switch>
     </div>
   );

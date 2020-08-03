@@ -1,0 +1,124 @@
+.work-slider li {
+  background: url(../../images/c-right.png);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  padding-left: 30px;
+  background-repeat: no-repeat;
+  background-position: left top 7px;
+  width: 50%;
+  float: left;
+  margin-bottom: 20px;
+  padding-right: 0px;
+  font-size: 20px;
+  line-height: 30px;
+}
+.work-slider h3 {
+  margin-bottom: 50px;
+  font-size: 40px;
+  line-height: 50px;
+}
+.w-img {
+  padding: 0% 0% 5%;
+}
+.work-slider .w-img img {
+  width: auto;
+  margin: auto;
+}
+.w-cont {
+  width: 100%;
+  float: left;
+  padding: 0 6%;
+}
+.work-slider .owl-dots {
+  display: none;
+}
+.work-slider .owl-nav {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  transform: translate(0, -50%);
+}
+
+.work-slider .owl-nav .owl-prev {
+  background: url(../../images/left-s.png) !important;
+  background-size: 60px !important;
+  height: 60px;
+  width: 60px;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  font-size: 0 !important;
+}
+.work-slider .owl-nav .owl-next {
+  background: url(../../images/left-s.png) !important;
+  background-size: 60px !important;
+  height: 60px;
+  width: 60px;
+  float: right;
+  transform: rotate(180deg);
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  font-size: 0 !important;
+}
+.work-slider {
+  padding-bottom: 60px;
+}
+.work-slider ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  float: left;
+}
+
+@media (max-width: 1499px) {
+  .work-slider h3 {
+    margin-bottom: 50px;
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .work-slider .w-img img {
+    width: 78%;
+  }
+  .work-slider {
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 1199px) {
+  .work-slider h3 {
+    margin-bottom: 40px;
+    font-size: 30px;
+    line-height: 41px;
+  }
+  .work-slider li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+@media (max-width: 767px) {
+  .work-slider h3 {
+    margin-bottom: 30px;
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .work-slider li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+  }
+  .work-slider .owl-nav {
+    top: 10%;
+  }
+  .work-slider .owl-nav .owl-prev,
+  .work-slider .owl-nav .owl-next {
+    background-size: 30px !important;
+    height: 30px;
+    width: 30px;
+  }
+  .work-slider .w-img img {
+    width: 73%;
+  }
+}

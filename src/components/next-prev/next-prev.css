@@ -1,0 +1,61 @@
+.next-prev a {
+  font-size: 12px;
+  line-height: 40px;
+  height: 40px;
+  display: inline-block;
+  border: 1px solid #999;
+  border-radius: 0;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.4px;
+  padding: 0 30px;
+  min-width: 200px;
+}
+.next-prev a:hover {
+  background: #000;
+  color: #fff;
+}
+.next-prev .left {
+  width: 50%;
+  float: left;
+  text-align: right;
+  padding-right: 15px;
+}
+.next-prev .right {
+  width: 50%;
+  float: left;
+  text-align: left;
+  padding-left: 15px;
+}
+.next-prev p {
+  font-family: "Conv_avenirltstd-light";
+  opacity: 0.5;
+  font-size: 14px;
+  line-height: 36px;
+  margin-top: 10px;
+}
+.next-prev {
+  padding-bottom: 60px;
+}
+
+@media (max-width: 767px) {
+  .next-prev a {
+    font-size: 10px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    padding: 0 10px;
+    min-width: 120px;
+  }
+  .next-prev .right {
+    padding-left: 10px;
+  }
+  .next-prev .left {
+    padding-right: 10px;
+  }
+  .next-prev p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
