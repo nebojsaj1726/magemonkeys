@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/magemonkeys/static/css/main.b0ee47a3.chunk.css",
-    "main.js": "/magemonkeys/static/js/main.49685b45.chunk.js",
-    "main.js.map": "/magemonkeys/static/js/main.49685b45.chunk.js.map",
+    "main.js": "/magemonkeys/static/js/main.faf1ba3d.chunk.js",
+    "main.js.map": "/magemonkeys/static/js/main.faf1ba3d.chunk.js.map",
     "runtime-main.js": "/magemonkeys/static/js/runtime-main.53aa2f02.js",
     "runtime-main.js.map": "/magemonkeys/static/js/runtime-main.53aa2f02.js.map",
-    "static/js/2.1a2c729f.chunk.js": "/magemonkeys/static/js/2.1a2c729f.chunk.js",
-    "static/js/2.1a2c729f.chunk.js.map": "/magemonkeys/static/js/2.1a2c729f.chunk.js.map",
+    "static/js/2.3d60f6cd.chunk.js": "/magemonkeys/static/js/2.3d60f6cd.chunk.js",
+    "static/js/2.3d60f6cd.chunk.js.map": "/magemonkeys/static/js/2.3d60f6cd.chunk.js.map",
     "index.html": "/magemonkeys/index.html",
-    "precache-manifest.9129f4b870199a225e181c05523b4c5f.js": "/magemonkeys/precache-manifest.9129f4b870199a225e181c05523b4c5f.js",
+    "precache-manifest.4a8032e403af24139a90c66e40b20d00.js": "/magemonkeys/precache-manifest.4a8032e403af24139a90c66e40b20d00.js",
     "service-worker.js": "/magemonkeys/service-worker.js",
     "static/css/main.b0ee47a3.chunk.css.map": "/magemonkeys/static/css/main.b0ee47a3.chunk.css.map",
-    "static/js/2.1a2c729f.chunk.js.LICENSE.txt": "/magemonkeys/static/js/2.1a2c729f.chunk.js.LICENSE.txt",
+    "static/js/2.3d60f6cd.chunk.js.LICENSE.txt": "/magemonkeys/static/js/2.3d60f6cd.chunk.js.LICENSE.txt",
     "static/media/App.css": "/magemonkeys/static/media/monkey1.c4531cc4.png",
     "static/media/about-baner.jpg": "/magemonkeys/static/media/about-baner.7b04f7ae.jpg",
     "static/media/action-take.css": "/magemonkeys/static/media/action_orang_bg.324ac1ee.jpg",
@@ -61,16 +61,13 @@
     "static/media/inner-banner-blog.css": "/magemonkeys/static/media/upgrade_monkey.b60fa685.png",
     "static/media/upgrade-service.css": "/magemonkeys/static/media/upgread_service_bg.d6c3d5d9.jpg",
     "static/media/w1.png": "/magemonkeys/static/media/w1.15df02c1.png",
-    "static/media/w1.jpg": "/magemonkeys/static/media/w1.4a2ebcba.jpg",
-    "static/media/w2.jpg": "/magemonkeys/static/media/w2.f4bc5119.jpg",
-    "static/media/w3.jpg": "/magemonkeys/static/media/w3.e00ea431.jpg",
     "static/media/way.jpg": "/magemonkeys/static/media/way.164de210.jpg",
     "static/media/inner-banner-work.css": "/magemonkeys/static/media/work-monkey.2ec056e8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.53aa2f02.js",
-    "static/js/2.1a2c729f.chunk.js",
+    "static/js/2.3d60f6cd.chunk.js",
     "static/css/main.b0ee47a3.chunk.css",
-    "static/js/main.49685b45.chunk.js"
+    "static/js/main.faf1ba3d.chunk.js"
   ]
 }
