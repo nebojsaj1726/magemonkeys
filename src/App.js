@@ -34,7 +34,16 @@ import Blog7Page from "./pages/blog-pages/blog7-page";
 import Blog8Page from "./pages/blog-pages/blog8-page";
 import Blog9Page from "./pages/blog-pages/blog9-page";
 import Blog10Page from "./pages/blog-pages/blog10-page";
-import WorkDetailPage from "./pages/work-detail-page";
+import Work1Page from "./pages/work-pages/work1-page";
+import Work2Page from "./pages/work-pages/work2-page";
+import Work3Page from "./pages/work-pages/work3-page";
+import Work4Page from "./pages/work-pages/work4-page";
+import Work5Page from "./pages/work-pages/work5-page";
+import Work6Page from "./pages/work-pages/work6-page";
+import Work7Page from "./pages/work-pages/work7-page";
+import Work8Page from "./pages/work-pages/work8-page";
+import Work9Page from "./pages/work-pages/work9-page";
+import Work10Page from "./pages/work-pages/work10-page";
 
 const App = () => {
   return (
@@ -141,9 +150,33 @@ const App = () => {
           path="/magento-bundle-product-price-shows-different-on-list-page-and-product-page"
           component={Blog10Page}
         />
+        <Route path="/karoe" component={Work1Page} />
         <Route
           path="/interior-fashion-lifestyle-ecommerce-store-development-house-of-hackney"
-          component={WorkDetailPage}
+          component={Work2Page}
+        />
+        <Route path="/surplus-industrial-supply" component={Work3Page} />
+        <Route path="/imedicale-store" component={Work4Page} />
+        <Route
+          path="/door-furniture-ecommerce-solution-uber-doors"
+          component={Work5Page}
+        />
+        <Route
+          path="/gold-silver-biblical-coins-shop-ecommerce-development"
+          component={Work6Page}
+        />
+        <Route
+          path="/home-furniture-ecommerce-store-development"
+          component={Work7Page}
+        />
+        <Route
+          path="/garden-products-remedies-ecommerce-shop-development"
+          component={Work8Page}
+        />
+        <Route path="/canapebox" component={Work9Page} />
+        <Route
+          path="/personalized-printing-ecommerce-solution-ink2print"
+          component={Work10Page}
         />
       </Switch>
     </div>

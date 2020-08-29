@@ -216,10 +216,10 @@ class AllWork extends Component {
                   {item1Title}
                 </h3>
                 <p dangerouslySetInnerHTML={{ __html: item1Content }}></p>
-                <a href="/#" className="orange-btn">
+                <Link to="/karoe" className="orange-btn">
                   View Project
                   <img src={rightaerow} alt="" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -266,10 +266,10 @@ class AllWork extends Component {
                   {item3Title}
                 </h3>
                 <p dangerouslySetInnerHTML={{ __html: item3Content }}></p>
-                <a href="/#" className="orange-btn">
+                <Link to="/surplus-industrial-supply" className="orange-btn">
                   View Project
                   <img src={rightaerow} alt="" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -284,10 +284,7 @@ class AllWork extends Component {
                   {item4Title}
                 </h3>
                 <p dangerouslySetInnerHTML={{ __html: item4Content }}></p>
-                <Link
-                  to="/interior-fashion-lifestyle-ecommerce-store-development-house-of-hackney"
-                  className="orange-btn"
-                >
+                <Link to="/imedicale-store" className="orange-btn">
                   View Project
                   <img src={rightaerow} alt="" />
                 </Link>
@@ -320,10 +317,13 @@ class AllWork extends Component {
                   {item5Title}
                 </h3>
                 <p dangerouslySetInnerHTML={{ __html: item5Content }}></p>
-                <a href="/#" className="orange-btn">
+                <Link
+                  to="/door-furniture-ecommerce-solution-uber-doors"
+                  className="orange-btn"
+                >
                   View Project
                   <img src={rightaerow} alt="" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -339,7 +339,7 @@ class AllWork extends Component {
                 </h3>
                 <p dangerouslySetInnerHTML={{ __html: item6Content }}></p>
                 <Link
-                  to="/interior-fashion-lifestyle-ecommerce-store-development-house-of-hackney"
+                  to="/gold-silver-biblical-coins-shop-ecommerce-development"
                   className="orange-btn"
                 >
                   View Project
@@ -370,10 +370,13 @@ class AllWork extends Component {
                   {item7Title}
                 </h3>
                 <p dangerouslySetInnerHTML={{ __html: item7Content }}></p>
-                <a href="/#" className="orange-btn">
+                <Link
+                  to="/home-furniture-ecommerce-store-development"
+                  className="orange-btn"
+                >
                   View Project
                   <img src={rightaerow} alt="" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -388,7 +391,7 @@ class AllWork extends Component {
                 </h3>
                 <p dangerouslySetInnerHTML={{ __html: item8Content }}></p>
                 <Link
-                  to="/interior-fashion-lifestyle-ecommerce-store-development-house-of-hackney"
+                  to="/garden-products-remedies-ecommerce-shop-development"
                   className="orange-btn"
                 >
                   View Project
@@ -423,10 +426,10 @@ class AllWork extends Component {
                   {item9Title}
                 </h3>
                 <p dangerouslySetInnerHTML={{ __html: item9Content }}></p>
-                <a href="/#" className="orange-btn">
+                <Link to="/canapebox" className="orange-btn">
                   View Project
                   <img src={rightaerow} alt="" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -442,7 +445,7 @@ class AllWork extends Component {
                 </h3>
                 <p dangerouslySetInnerHTML={{ __html: item10Content }}></p>
                 <Link
-                  to="/interior-fashion-lifestyle-ecommerce-store-development-house-of-hackney"
+                  to="/personalized-printing-ecommerce-solution-ink2print"
                   className="orange-btn"
                 >
                   View Project

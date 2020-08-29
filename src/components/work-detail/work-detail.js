@@ -23,7 +23,7 @@ const WorkDetail = (props) => (
             className="c-center black-title  hideme wow animated  fadeIn "
             data-wow-duration="2s"
           >
-            <span className="orange">Mage Monkeys</span> helped House of hackney
+            <span className="orange">Mage Monkeys</span> helped {props.company}
             <br />
             to achieve below solutions:
           </h3>

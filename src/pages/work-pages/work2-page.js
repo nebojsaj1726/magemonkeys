@@ -3,15 +3,15 @@ import WOW from "wowjs";
 import { Helmet } from "react-helmet";
 import axios from "axios";
 
-import Header from "../components/header/header";
-import InnerBannerWd from "../components/inner-banner-wd/inner-banner-wd";
-import WorkDetail from "../components/work-detail/work-detail";
-import WorkSlider from "../components/work-slider/work-slider";
-import NextPrev from "../components/next-prev/next-prev";
-import LetsStartMain from "../components/lets-start-main/lets-start-main";
-import Footer from "../components/footer/footer";
+import Header from "../../components/header/header";
+import InnerBannerWd from "../../components/inner-banner-wd/inner-banner-wd";
+import WorkDetail from "../../components/work-detail/work-detail";
+import WorkSlider from "../../components/work-slider/work-slider";
+import NextPrev from "../../components/next-prev/next-prev";
+import LetsStartMain from "../../components/lets-start-main/lets-start-main";
+import Footer from "../../components/footer/footer";
 
-class WorkDetailPage extends Component {
+class Work2Page extends Component {
   state = {
     title: "",
     content: "",
@@ -53,10 +53,15 @@ class WorkDetailPage extends Component {
         {loading ? (
           <div className="loading">Loading...</div>
         ) : (
-          <WorkDetail content={content} />
+          <WorkDetail content={content} company="House of Hackney" />
         )}
-        <WorkSlider />
-        <NextPrev />
+        <WorkSlider company="House of Hackney" />
+        <NextPrev
+          prevcom="Karoe"
+          nextcom="Surplus Industrial Supply"
+          plink="karoe"
+          nlink="surplus-industrial-supply"
+        />
         <LetsStartMain />
         <Footer />
       </div>
@@ -64,4 +69,4 @@ class WorkDetailPage extends Component {
   }
 }
 
-export default WorkDetailPage;
+export default Work2Page;

@@ -63,7 +63,7 @@ const Slider = styled.div`
   }
 `;
 
-const WorkSlider = () => {
+const WorkSlider = (props) => {
   return (
     <div className="work-slider">
       <div className="container">
@@ -80,7 +80,7 @@ const WorkSlider = () => {
                       className="c-center black-title  hideme wow animated  fadeIn "
                       data-wow-duration="2s"
                     >
-                      House of hackney achieved below benefits
+                      {props.company} achieved below benefits
                       <br />
                       by availing Mage Monkeys' tech service:
                     </h3>
@@ -111,7 +111,7 @@ const WorkSlider = () => {
                       className="c-center black-title  hideme wow animated  fadeIn "
                       data-wow-duration="2s"
                     >
-                      House of hackney achieved below benefits
+                      {props.company} achieved below benefits
                       <br />
                       by availing Mage Monkeys' tech service:
                     </h3>

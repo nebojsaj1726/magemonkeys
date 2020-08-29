@@ -1,25 +1,26 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./next-prev.css";
 
-const NextPrev = () => (
+const NextPrev = (props) => (
   <div className="next-prev">
     <div className="container">
       <div className="row">
         <div className="col-md-12">
           <div className="all-btn">
             <div className="left">
-              <a href="/#" className="btn prev">
+              <Link to={`/${props.plink}`} className="btn prev">
                 Previous Project
-              </a>
-              <p>iMustGarden</p>
+              </Link>
+              <p>{props.prevcom}</p>
             </div>
 
             <div className="right">
-              <a href="/#" className="btn next">
+              <Link to={`/${props.nlink}`} className="btn next">
                 Next Project
-              </a>
-              <p>Surplus Industrial supply</p>
+              </Link>
+              <p>{props.nextcom}</p>
             </div>
           </div>
         </div>
