@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/magemonkeys/static/css/main.b0ee47a3.chunk.css",
-    "main.js": "/magemonkeys/static/js/main.9aec3eea.chunk.js",
-    "main.js.map": "/magemonkeys/static/js/main.9aec3eea.chunk.js.map",
+    "main.js": "/magemonkeys/static/js/main.04359cc0.chunk.js",
+    "main.js.map": "/magemonkeys/static/js/main.04359cc0.chunk.js.map",
     "runtime-main.js": "/magemonkeys/static/js/runtime-main.53aa2f02.js",
     "runtime-main.js.map": "/magemonkeys/static/js/runtime-main.53aa2f02.js.map",
-    "static/js/2.3d60f6cd.chunk.js": "/magemonkeys/static/js/2.3d60f6cd.chunk.js",
-    "static/js/2.3d60f6cd.chunk.js.map": "/magemonkeys/static/js/2.3d60f6cd.chunk.js.map",
+    "static/js/2.23693197.chunk.js": "/magemonkeys/static/js/2.23693197.chunk.js",
+    "static/js/2.23693197.chunk.js.map": "/magemonkeys/static/js/2.23693197.chunk.js.map",
     "index.html": "/magemonkeys/index.html",
-    "precache-manifest.daf0fb7ed5cd74ccae69aabefde7d582.js": "/magemonkeys/precache-manifest.daf0fb7ed5cd74ccae69aabefde7d582.js",
+    "precache-manifest.581c07e5c55eca0df096c6cda3cad8da.js": "/magemonkeys/precache-manifest.581c07e5c55eca0df096c6cda3cad8da.js",
     "service-worker.js": "/magemonkeys/service-worker.js",
     "static/css/main.b0ee47a3.chunk.css.map": "/magemonkeys/static/css/main.b0ee47a3.chunk.css.map",
-    "static/js/2.3d60f6cd.chunk.js.LICENSE.txt": "/magemonkeys/static/js/2.3d60f6cd.chunk.js.LICENSE.txt",
+    "static/js/2.23693197.chunk.js.LICENSE.txt": "/magemonkeys/static/js/2.23693197.chunk.js.LICENSE.txt",
     "static/media/App.css": "/magemonkeys/static/media/monkey1.c4531cc4.png",
     "static/media/about-baner.jpg": "/magemonkeys/static/media/about-baner.7b04f7ae.jpg",
     "static/media/action-take.css": "/magemonkeys/static/media/action_orang_bg.324ac1ee.jpg",
@@ -60,14 +60,13 @@
     "static/media/t-logo3.png": "/magemonkeys/static/media/t-logo3.2e911648.png",
     "static/media/inner-banner-blog.css": "/magemonkeys/static/media/upgrade_monkey.b60fa685.png",
     "static/media/upgrade-service.css": "/magemonkeys/static/media/upgread_service_bg.d6c3d5d9.jpg",
-    "static/media/w1.png": "/magemonkeys/static/media/w1.15df02c1.png",
     "static/media/way.jpg": "/magemonkeys/static/media/way.164de210.jpg",
     "static/media/inner-banner-work.css": "/magemonkeys/static/media/work-monkey.2ec056e8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.53aa2f02.js",
-    "static/js/2.3d60f6cd.chunk.js",
+    "static/js/2.23693197.chunk.js",
     "static/css/main.b0ee47a3.chunk.css",
-    "static/js/main.9aec3eea.chunk.js"
+    "static/js/main.04359cc0.chunk.js"
   ]
 }
