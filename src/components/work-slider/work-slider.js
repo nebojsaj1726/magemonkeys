@@ -3,7 +3,6 @@ import Carousel from "react-elastic-carousel";
 import styled from "styled-components";
 
 import "./work-slider.css";
-import w1 from "../../images/w1.png";
 
 const Slider = styled.div`
   .rec-carousel {
@@ -73,7 +72,7 @@ const WorkSlider = (props) => {
               <Carousel itemsToShow={1}>
                 <div className="item">
                   <div className="w-img">
-                    <img src={w1} alt="" />
+                    <img src={props.imgPath1} alt="" />
                   </div>
                   <div className="w-cont">
                     <h3
@@ -104,7 +103,69 @@ const WorkSlider = (props) => {
                 </div>
                 <div className="item">
                   <div className="w-img">
-                    <img src={w1} alt="" />
+                    <img src={props.imgPath2} alt="" />
+                  </div>
+                  <div className="w-cont">
+                    <h3
+                      className="c-center black-title  hideme wow animated  fadeIn "
+                      data-wow-duration="2s"
+                    >
+                      {props.company} achieved below benefits
+                      <br />
+                      by availing Mage Monkeys' tech service:
+                    </h3>
+                    <ul
+                      className="hideme wow animated listing fadeIn  animated"
+                      data-wow-duration="2s"
+                    >
+                      <li>Gain New Customers with Search Engine Visibility</li>
+                      <li>Enable Deals, Bargains, Coupons</li>
+                      <li>Overcome Geographical Limitations</li>
+                      <li>
+                        Create Targeted Communication based on Customer Segment
+                      </li>
+                      <li>Provide Comparison Shopping of products</li>
+                      <li>
+                        Create Markets for Niche Products and lowering
+                        operational cost and investment
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="item">
+                  <div className="w-img">
+                    <img src={props.imgPath3} alt="" />
+                  </div>
+                  <div className="w-cont">
+                    <h3
+                      className="c-center black-title  hideme wow animated  fadeIn "
+                      data-wow-duration="2s"
+                    >
+                      {props.company} achieved below benefits
+                      <br />
+                      by availing Mage Monkeys' tech service:
+                    </h3>
+                    <ul
+                      className="hideme wow animated listing fadeIn  animated"
+                      data-wow-duration="2s"
+                    >
+                      <li>Gain New Customers with Search Engine Visibility</li>
+                      <li>Enable Deals, Bargains, Coupons</li>
+                      <li>Overcome Geographical Limitations</li>
+                      <li>
+                        Create Targeted Communication based on Customer Segment
+                      </li>
+                      <li>Provide Comparison Shopping of products</li>
+                      <li>
+                        Create Markets for Niche Products and lowering
+                        operational cost and investment
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="item">
+                  <div className="w-img">
+                    <img src={props.imgPath4} alt="" />
                   </div>
                   <div className="w-cont">
                     <h3
